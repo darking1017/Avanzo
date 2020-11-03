@@ -267,6 +267,8 @@ $$
 
 ## 4.1. El clasicismo griego. Epopeyas homéricas: características, valores y recursos[^40]
 
+la poesía
+
 ## 4.2. La tragedia griega: características, valores y obras representativas.
 
 ## 4.3. La épica medieval: características, valores y obras representativas.
