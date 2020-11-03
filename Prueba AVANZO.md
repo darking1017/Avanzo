@@ -8,7 +8,7 @@
 
 <div style="page-break-after: always;"></div>
 
-# 1. Matemática
+# 1. Matemá
 
 ## 1.1. Razones trigonométricas[^1]
 
