@@ -57,6 +57,10 @@ img {
   margin-top: 1em;
 }
 
+.footnotes-list p {
+  text-indent: 0in;
+}
+
 @media print {
 
   html, body {
