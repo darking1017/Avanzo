@@ -10,33 +10,138 @@
 
 # 1. Matemática
 
-## 1.1. Razones trigonométricas
+## 1.1. Razones trigonométricas[^1]
+
+### 1.1.1. Razones trigonométricas
 
 El triángulo $\text{ABC}$ es un triángulo rectángulo en $\text{C}$; lo usaremos para definir las razones seno, coseno y tangente, del ángulo $\alpha$, correspondiente al vértice $\text{A}$, situado en el centro de la circunferencia.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Trigonometria_aa1.svg/280px-Trigonometria_aa1.svg.png)
+![Razones trigonométricas](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Trigonometria_aa1.svg/280px-Trigonometria_aa1.svg.png)
 
-- El seno (abreviado como sen, o sin por llamarse "sĭnus" en latín) es la razón entre el cateto opuesto al ángulo y la hipotenusa.
-
-$$
-{\displaystyle \sin \alpha ={\frac {\overline {CB}}{\overline {AB}}}}
-$$
-
-- El coseno (abreviado como cos) es la razón entre el cateto adyacente o contiguo al ángulo y la hipotenusa.
+- **El seno** (abreviado como sen, o sin por llamarse "sĭnus" en latín) es la razón entre el cateto opuesto al ángulo y la hipotenusa.
 
 $$
-{\displaystyle \cos \alpha ={\frac {\overline {AC}}{\overline {AB}}}}
+    {\displaystyle \sin \alpha ={\frac {\overline {CB}}{\overline {AB}}}}
 $$
 
-- La tangente (abreviado como tan o tg) es la razón entre el cateto opuesto al ángulo y el cateto adyacente.
+- **El coseno** (abreviado como cos) es la razón entre el cateto adyacente o contiguo al ángulo y la hipotenusa.
 
 $$
-{\displaystyle \tan \alpha ={\frac {\overline {CB}}{\overline {AC}}}={\frac {\overline {DE}}{\overline {AD}}}}
+    {\displaystyle \cos \alpha ={\frac {\overline {AC}}{\overline {AB}}}}
 $$
 
-### 1.1.1. Representación gráfica
+- **La tangente** (abreviado como tan o tg) es la razón entre el cateto opuesto al ángulo y el cateto adyacente.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Funci%C3%B3n_Trigonom%C3%A9trica_R111.svg/740px-Funci%C3%B3n_Trigonom%C3%A9trica_R111.svg.png)
+$$
+    {\displaystyle \tan \alpha ={\frac {\overline {CB}}{\overline {AC}}}={\frac {\overline {DE}}{\overline {AD}}}}
+$$
+
+#### 1.1.1.1. Representación gráfica
+
+![Representación gráfica de las razones trigonométricas](https://upload.wikimedia.org/wikipedia/commons/e/e5/Función_Trigonométrica_R111.svg)
+
+### 1.1.2. Razones trigonométricas inversas
+
+![Razones trigonométricas inversas](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Trigonometria_ac0.svg/280px-Trigonometria_ac0.svg.png)
+
+- **La cosecante:** (abreviado como csc o cosec) es la razón inversa de seno, o también su inverso multiplicativo:
+
+$$
+    {\displaystyle \csc \alpha ={\frac {1}{\sin \;\alpha }}={\frac {\overline {AB}}{\overline {CB}}}={\frac {\overline {AG}}{\overline {AF}}}}
+$$
+
+- **La secante:** (abreviado como sec) es la razón inversa de coseno, o también su inverso multiplicativo:
+
+$$
+    {\displaystyle \sec \alpha ={\frac {1}{\cos \;\alpha }}={\frac {\overline {AB}}{\overline {AC}}}={\frac {\overline {AE}}{\overline {AD}}}}
+$$
+
+- **La cotangente:** (abreviado como cot o cta o ctg) es la razón inversa de la tangente, o también su inverso multiplicativo:
+
+$$
+    {\displaystyle \cot \alpha ={\frac {1}{\tan \alpha }}={\frac {\overline {AC}}{\overline {CB}}}={\frac {\overline {FG}}{\overline {AF}}}}
+$$
+
+Normalmente se emplean las relaciones trigonométricas seno, coseno y tangente, y salvo que haya un interés específico en hablar de ellos o las expresiones matemáticas se simplifiquen mucho, los términos cosecante, secante y cotangente no suelen utilizarse
+
+#### 1.1.2.1. Representación gráfica
+
+![Representación gráfica de las razones trigonométricas inversas](https://upload.wikimedia.org/wikipedia/commons/c/cf/Función_Trigonométrica_R222.svg)
+
+### 1.1.3. Equivalencia entre las funciones trigonométricas
+
+<center>
+
+| Seno           | Coseno                                       | Tangente                                     | Cotangente                                   | Secante                                      | Cosecante                                    |
+| -------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| $\sin\theta\,$ | <center>$\sin\theta\,$                       | $\sqrt{1-\cos^{2}\theta}$                    | $\frac{\tan\theta}{\sqrt{1+\tan^{2}\theta}}$ | $\frac{1}{\sqrt{1+\cot^{2}\theta}}$          | $\frac{\sqrt{\sec^{2}\theta-1}}{\sec\theta}$ | <center>$\frac{1}{\csc\theta}$ |
+| $\cos\theta\,$ | $\sqrt{1-\sin^{2}\theta}$                    | <center>$\cos\theta\,$                       | $\frac{1}{\sqrt{1+\tan^{2}\theta}}$          | $\frac{\cot\theta}{\sqrt{1+\cot^{2}\theta}}$ | <center>$\frac{1}{\sec\theta}$               | $\frac{\sqrt{\csc^{2}\theta-1}}{\csc\theta}$ |
+| $\tan\theta\,$ | $\frac{\sin\theta}{\sqrt{1-\sin^{2}\theta}}$ | $\frac{\sqrt{1-\cos^{2}\theta}}{\cos\theta}$ | <center>$\tan\theta\,$                       | <center>$\frac{1}{\cot\theta}$               | $\sqrt{sec^{2}\theta-1}$                     | $\frac{1}{\sqrt{\csc^{2}\theta-1}}$ |
+| $\cot\theta\,$ | $\frac{\sqrt{1-\sin^{2}\theta}}{\sin\theta}$ | $\frac{\cos\theta}{\sqrt{1-\cos^{2}\theta}}$ | <center>$\frac{1}{\tan\theta}$               | <center>$\cot\theta\,$                       | $\frac{1}{\sqrt{\sec^{2}\theta-1}}$          | $\sqrt{\csc^{2}\theta-1}$ |
+| $\sec\theta\,$ | $\frac{1}{\sqrt{1-\sin^{2}\theta}}$          | <center>$\frac{1}{\cos\theta\,}$             | $\sqrt{1+\tan^{2}\theta}$                    | $\frac{\sqrt{1+\cot^{2}\theta}}{\cot\theta}$ | <center>${\sec\theta}\,$                     | $\frac{\csc\theta}{\sqrt{\csc^{2}\theta-1}}$ |
+| $\csc\theta\,$ | <center>$\frac{1}{\sin\theta\,}$             | $\frac{1}{\sqrt{1-\cos^{2}\theta}}$          | $\frac{\sqrt{1+\tan^{2}\theta}}{\tan\theta}$ | $\sqrt{1+\cot^{2}\theta}$                    | $\frac{\sec\theta}{\sqrt{\sec^{2}\theta-1}}$ | <center>${\csc\theta}\,$ |
+
+</center>
+
+### 1.1.4. Identidades trigonométricas
+
+Una identidad es una igualdad en que se cumple para todos los valores permisibles de la variable. En trigonometría existen seis identidades fundamentales:
+
+#### 1.1.4.1. Recíprocas
+
+$$
+    \sin (\alpha )\cdot \csc(\alpha )=1
+    \\\:\\
+    \cos(\alpha )\cdot \sec(\alpha )=1
+    \\\:\\
+    \tan(\alpha )\cdot \cot(\alpha )=1
+$$
+
+#### 1.1.4.2. De división
+
+$$
+    {\displaystyle \tan(\alpha )={\frac {\sin(\alpha )}{\cos(\alpha )}}}
+    \\\:\\
+    \cot(\alpha )={\frac  {\cos(\alpha )}{\sin(\alpha )}}
+    \\\:\\
+    {\displaystyle \csc(\alpha )={\frac {1}{\sin(\alpha )}}}
+    \\\:\\
+    {\displaystyle \sec(\alpha )={\frac {1}{\cos(\alpha )}}}
+$$
+
+#### 1.1.4.3. Por el teorema de Pitágoras
+
+Como en el triángulo rectángulo cumple la función que:
+
+$$
+    a^{2}+b^{2}=c^{2}
+$$
+
+Se tiene que:
+
+$$
+    {\displaystyle \sin(\alpha )={\frac {a}{c}}, \qquad \cos(\alpha )={\frac {b}{c}}}
+$$
+
+por tanto:
+
+$$
+    \sin ^{2}\alpha +\cos ^{2}\alpha ={\bigg (}{\dfrac  {a}{c}}{\bigg )}^{2}+{\bigg (}{\frac  {b}{c}}{\bigg )}^{2}={\frac  {a^{2}+b^{2}}{c^{2}}}={\frac  {c^{2}}{c^{2}}}=1
+$$
+
+entonces para todo ángulo α, se cumple la identidad Pitagórica:
+
+$$
+    \sin ^{2}\alpha +\cos ^{2}\alpha =1\,
+$$
+
+que también puede expresarse:
+
+$$
+    \tan ^{2}\alpha +1=\sec ^{2}\alpha \,
+    \\\:\\
+    1+\cot ^{2}\alpha =\csc ^{2}\alpha \,
+$$
 
 ## 1.2. Solución y aplicación de triángulos rectángulos
 
@@ -211,3 +316,7 @@ $$
 ## 4.25. Tildación de palabras
 
 ## 4.26. Sinónimos y antónimos
+
+<!-- Footnotes -->
+
+[^1]: https://es.wikipedia.org/wiki/Trigonometría#Razones_trigonométricas
