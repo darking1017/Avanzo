@@ -4,7 +4,7 @@
 
 <h1 class="header"> Prueba AVANZO </h1>
 
-<h2 style="text-align:center"> Arthur Martelli Gomes </h2>
+<h2 style="text-align:center"> Arthur Martelli Gomes <br> Cristian Reyes </h2>
 
 <div style="page-break-after: always;"></div>
 
