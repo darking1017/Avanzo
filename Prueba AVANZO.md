@@ -369,12 +369,12 @@ $$
 [^2.23]: Pág.
 [^2.24]: Pág.
 
-[^3.1]: Pág.
-[^3.2]: Pág.
-[^3.3]: Pág.
-[^3.4]: Pág.
-[^3.5]: Pág.
-[^3.6]: Pág.
+[^3.1]: Pág. 22 - 24 (ESE), 29 - 35 (SEMINARIO I), 10 (Santillana)
+[^3.2]: Pág. 22 - 24 (ESE), 29 - 35 (SEMINARIO I)
+[^3.3]: Pág. 130 - 137 (SEMINARIO II), 103, 111 (SEMINARIO I), https://nodo.ugto.mx/wp-content/uploads/2016/05/Tipos-de-estudio-y-métodos-de-investigación.pdf
+[^3.4]: Pág. 76 - 81 (Santillanas), 124 - 130 (ESE)
+[^3.5]: Pág. 76 - 81 (Santillanas), 130 - 142 (ESE)
+[^3.6]: Pág. 76 - 81 (Santillanas), 142 - 152 (ESE)
 [^3.7]: Pág.
 [^3.8]: Pág.
 [^3.9]: Pág.
