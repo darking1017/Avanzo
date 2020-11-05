@@ -61,6 +61,12 @@ img {
   text-indent: 0in;
 }
 
+ul {
+  font-size: 12pt;
+  padding-left: 0in;
+  margin-left: 1in;
+}
+
 @media print {
 
   html, body {
@@ -77,14 +83,24 @@ img {
 
   blockquote {
     margin-left: 0in;
-    padding-left: 1in;
     padding-right: 0in;
     margin-right: 0in;
     border-left: none;
     border-right: none;
+    background-color: whitesmoke;
   }
   
   blockquote p {
     text-indent: 0in;
+    padding-left: 0.5in;
+    padding-right: 0.5in;
+  }
+
+  blockquote p::before {
+    content: '"';
+  }
+
+  blockquote p::after {
+    content: '".';
   }
 }
