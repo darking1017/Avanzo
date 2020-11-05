@@ -4,7 +4,7 @@
 
 <h1 class="header"> Prueba AVANZO </h1>
 
-<h2 style="text-align:center"> Arthur Martelli Gomes <br> Cristian Reyes </h2>
+<h2 style="text-align:center"> Arthur Martelli Gomes y Cristian Reyes </h2>
 
 <div style="page-break-after: always;"></div>
 
@@ -243,7 +243,32 @@ $$
 
 ## 3.1. Las Ciencias Sociales y su objeto de estudio[^3.1]
 
+Lo que caracteriza la actividad cognitiva del científico es la búsqueda y el descubrimiento de las leyes por las que se rige el universo o las sociedades e individuos humanos. Así, por ejemplo, los físicos y astrónomos pretenden hallar, al cabo de sus investigaciones, las leyes matemáticas que describen adecuadamente los movimientos de determinados cuerpos celestes. Iqualmente, un biólogo investiga las leyes seqún las cuales se transmiten, por ejemplo, caracteres hereditarios en una cierta especie. Se puede decir, en general, que la ciencia ha alcanzado un alto grado de madurez cuando es capaz de formular leyes matematicas que le permiten predecir con la mayor exactitud posible el comportamiento de los objetos con los que trabaja. La gran posibilidad que las leyes cientificas aportan a los seres humanos es la de hacer predicciones.
+
+En el siglo XVIII, gracias a que la Ilustración había colocado en el centro de la reflexión a la razón, nació, con autonomía, el análisis de los temas sociales, en lo que hoy se conoce como ciencias sociales. En esta época se comienzan a estudar disciplinas como la historia, la geografía, la sociología y otras. Las ciencias sociales siguen desarrollandose, y debido a la complejidad de lo social, siempre están abiertas a nuevas disciplinas.
+
+Podemos decir que las ciencias sociales son aquellas que estudian la convivencia social y las diversas estructuras de las relaciones de los seres humano, con la finalidad de investigar las leyes que rigen los fenómenos humanos en un ámbito determinado de la sociedad.
+
+En sí, las ciencias sociales se diferencian de las naturalez en el objeto de estudio (éstas estudian las relaciones de los hombres entre sí, mientras que las otras estudian los procesos, cambios y transformaciones de la materia tal como se presentan en la naturaleza), en el método y las técnicas de investigación, y en la posición y papel del científico.
+
+Entre las ciencias sociales se encuentran: la economía, la antropología, la historia, la geografía humana, la psicología social y, por supuesto, la sociología.
+
+### Objeto de estudio
+
+Las ciencias sociales buscan comprender la realidad en la que vive v se desarrolla el ser humano en sociedad y sus instituciones, a través de estudios disciplinados y sistemáticos. Su objeto de estudio son los fenómenos sociales, entendidos en su más amplia concepción: los procesos humanos en sociedad, sus causas, consecuencias, factores y variables que influyen debido al comportamiento en conjunto.
+
+Las ciencias sociales analizan la realidad social que impacta en la sociedad y lo hacen a través de preguntas. Estas interrogantes son el problema que buscará resolver el investigador o investigadora social, a lo que propondrá una respuesta provisoria (hipótesis), que buscará confirmar o rechazar por medio de la recopilación de datos y el análisis de los mismos. Con los diferentes métodos de investigación que se pueden encontrar para este tipo de estudio, el investigador o investigadora social pretende:
+
+- Explicar fenómenos sociales, procesos históricos y diferentes sucesos que marcan precedencia como sociedad.
+- Conocer al sujeto social en su contexto: espacio, tiempo y cultura.
+- Poder presentar de manera entendible a la sociedad las causas de las realidades que viven, dar a conocer los hechos en si mismos y poder extraer consecuencias de ese proceso social.
+- Finalmente, prever alqunos escenarios sociales futuros (aunque sea muy provisoriamente), para poder evitar etectos nocivos y propiciar cambios.
+
 ## 3.2. Las dificultades del conocimiento científico sobre la realidad social[^3.2]
+
+El conociemiento exacto de un comportamiento futuro implica una riqueza enorme de posibles aplicaciones prácticas (técnicas) de los avances del conocimiento humano. Ciertamente esta exactitud se logra más fácilmente en las ciencias naturales que en las ciencias humanas y sociales. Dados una serie de datos, por ejemplo, sobre los movimientos de los planetas en el sistema solar, podemos predecir con gran precisión el momento en que se producirá un eclipse de sol. 
+
+**En otras ciencias, como la economía o la sociología, que trabajan con fenómenos humanos, es más difícil la formulación de leyes tan rigurosas: no es fácil predecir una crisis económica o una revolución social.** Pero no cabe duda de que, a pesar de tales limitaciones, la intención de los científicos sociales es también la de descubrir las leyes que rigen los fenómenos humanos y sociales; y el acierto en un buen número de sus pronósticos atestigua que tal descubrimiento se logra, al menos parcialmente.
 
 ## 3.3. Métodos y técnicas de la investigación social[^3.3]
 
@@ -319,6 +344,8 @@ $$
 
 <!-- Footnotes -->
 
+<!-- Matemáticas -->
+
 [^1.1]: https://es.wikipedia.org/wiki/Trigonometría#Razones_trigonométricas
 [^1.2]: Pág.
 [^1.3]: Pág.
@@ -343,6 +370,8 @@ $$
 [^1.22]: Pág.
 [^1.23]: Pág.
 [^1.24]: Pág.
+
+<!-- Ciencias -->
 
 [^2.1]: Pág.
 [^2.2]: Pág.
@@ -369,8 +398,10 @@ $$
 [^2.23]: Pág.
 [^2.24]: Pág.
 
-[^3.1]: Pág. 22 - 24 (ESE), 29 - 35 (SEMINARIO I), 10 (Santillana)
-[^3.2]: Pág. 22 - 24 (ESE), 29 - 35 (SEMINARIO I)
+<!-- Sociales -->
+
+[^3.1]: Pág. 22 - 24 (ESE), 30 - 35 (SEMINARIO I), 10 (Santillana)
+[^3.2]: Pág. 22 - 24 (ESE), 30 - 35 (SEMINARIO I)
 [^3.3]: Pág. 130 - 137 (SEMINARIO II), 103, 111 (SEMINARIO I), https://nodo.ugto.mx/wp-content/uploads/2016/05/Tipos-de-estudio-y-métodos-de-investigación.pdf
 [^3.4]: Pág. 76 - 81 (Santillanas), 124 - 130 (ESE)
 [^3.5]: Pág. 76 - 81 (Santillanas), 130 - 142 (ESE)
@@ -380,6 +411,8 @@ $$
 [^3.9]: Pág.
 [^3.10]: Pág.
 [^3.11]: Pág.
+
+<!-- Lenguaje -->
 
 [^4.1]: Pág. 17
 [^4.2]: Pág. 18 - 19
