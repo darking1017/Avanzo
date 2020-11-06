@@ -336,8 +336,8 @@ Además, Duarte tuvo que enfrentar a lo largo de toda su presidencia la oposici�
 
 | Lugar y Fecha | Tema tratado | Acuerdos obtenidos |
 | ------------- | ------------ | ------------------ |
-La Palma, Chalatengango <br> 15/10/1986 | La incorporación del FMLN al proceso democrático y la preparación de la próxima consulta popular. Las propuestas de solución del conflicto salvadoreño. <br> El gobierno y las fuerzas armadas solicitaron al FMLN el abandono de las armas para poder convertirse en partido político. Al FDR le pidieron participar en las proximas elecciones legislativas. <br> El FMLN proponía el reparto del poder político para formar un gobierno de transición que hiciera concretas las reformas económicas y sociales que llevarían a la paz social. | Creaci´n de una comisión mixta creada por cuatro delegados del gobierno y cuatro del FMLN-FDR para que estudiaran las propuestas de paz, presentadas por las partes del conflicto. <br> Participación del FMLN en las elecciones como partido político.
-Ayagualo, La Libertad <br> 30/11/1984 | La resolución del conflicto armado. 
+La Palma, Chalatengango <br> 15/10/1986 | La incorporación del FMLN al proceso democrático y la preparación de la próxima consulta popular. Las propuestas de solución del conflicto salvadoreño. <br> El gobierno y las fuerzas armadas solicitaron al FMLN el abandono de las armas para poder convertirse en partido político. Al FDR le pidieron participar en las proximas elecciones legislativas. <br> El FMLN proponía el reparto del poder político para formar un gobierno de transición que hiciera concretas las reformas económicas y sociales que llevarían a la paz social. | Creación de una comisión mixta creada por cuatro delegados del gobierno y cuatro del FMLN-FDR para que estudiaran las propuestas de paz, presentadas por las partes del conflicto. <br> Participación del FMLN en las elecciones como partido político.
+Ayagualo, La Libertad <br> 30/11/1984 | La resolución del conflicto armado.  
 
 ## 3.5. Los factores que hicieron posibles los Acuerdos de Paz: internos y externos[^3.5]
 
