@@ -4,7 +4,7 @@ kv<!-- title: Prueba AVANZO | Arthur Martelli Gomes -->
 
 <h1 class="header"> Prueba AVANZO </h1>
 
-<h2 style="text-align:center"> Arthur Martelli Gomes <br> Cristian Reyes </h2>
+<h2 style="text-align:center"> Arthur Martelli Gomes y Cristian Reyes </h2>
 
 <div style="page-break-after: always;"></div>
 
@@ -70,18 +70,15 @@ Normalmente se emplean las relaciones trigonométricas seno, coseno y tangente, 
 
 ### 1.1.3. Equivalencia entre las funciones trigonométricas
 
-<center>
+| Seno           |                    Coseno                    |                   Tangente                   |                  Cotangente                  |                   Secante                    |                  Cosecante                   |
+| -------------- | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
+| $\sin\theta\,$ |                $\sin\theta\,$                |          $\sqrt{1-\cos^{2}\theta}$           | $\frac{\tan\theta}{\sqrt{1+\tan^{2}\theta}}$ |     $\frac{1}{\sqrt{1+\cot^{2}\theta}}$      | $\frac{\sqrt{\sec^{2}\theta-1}}{\sec\theta}$ | $\frac{1}{\csc\theta}$                       |
+| $\cos\theta\,$ |          $\sqrt{1-\sin^{2}\theta}$           |                $\cos\theta\,$                |     $\frac{1}{\sqrt{1+\tan^{2}\theta}}$      | $\frac{\cot\theta}{\sqrt{1+\cot^{2}\theta}}$ |            $\frac{1}{\sec\theta}$            | $\frac{\sqrt{\csc^{2}\theta-1}}{\csc\theta}$ |
+| $\tan\theta\,$ | $\frac{\sin\theta}{\sqrt{1-\sin^{2}\theta}}$ | $\frac{\sqrt{1-\cos^{2}\theta}}{\cos\theta}$ |                $\tan\theta\,$                |            $\frac{1}{\cot\theta}$            |           $\sqrt{sec^{2}\theta-1}$           | $\frac{1}{\sqrt{\csc^{2}\theta-1}}$          |
+| $\cot\theta\,$ | $\frac{\sqrt{1-\sin^{2}\theta}}{\sin\theta}$ | $\frac{\cos\theta}{\sqrt{1-\cos^{2}\theta}}$ |            $\frac{1}{\tan\theta}$            |                $\cot\theta\,$                |     $\frac{1}{\sqrt{\sec^{2}\theta-1}}$      | $\sqrt{\csc^{2}\theta-1}$                    |
+| $\sec\theta\,$ |     $\frac{1}{\sqrt{1-\sin^{2}\theta}}$      |           $\frac{1}{\cos\theta\,}$           |          $\sqrt{1+\tan^{2}\theta}$           | $\frac{\sqrt{1+\cot^{2}\theta}}{\cot\theta}$ |               ${\sec\theta}\,$               | $\frac{\csc\theta}{\sqrt{\csc^{2}\theta-1}}$ |
+| $\csc\theta\,$ |           $\frac{1}{\sin\theta\,}$           |     $\frac{1}{\sqrt{1-\cos^{2}\theta}}$      | $\frac{\sqrt{1+\tan^{2}\theta}}{\tan\theta}$ |          $\sqrt{1+\cot^{2}\theta}$           | $\frac{\sec\theta}{\sqrt{\sec^{2}\theta-1}}$ | ${\csc\theta}\,$                             |
 
-| Seno           | Coseno                                       | Tangente                                     | Cotangente                                   | Secante                                      | Cosecante                                    |
-| -------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
-| $\sin\theta\,$ | <center>$\sin\theta\,$                       | $\sqrt{1-\cos^{2}\theta}$                    | $\frac{\tan\theta}{\sqrt{1+\tan^{2}\theta}}$ | $\frac{1}{\sqrt{1+\cot^{2}\theta}}$          | $\frac{\sqrt{\sec^{2}\theta-1}}{\sec\theta}$ | <center>$\frac{1}{\csc\theta}$ |
-| $\cos\theta\,$ | $\sqrt{1-\sin^{2}\theta}$                    | <center>$\cos\theta\,$                       | $\frac{1}{\sqrt{1+\tan^{2}\theta}}$          | $\frac{\cot\theta}{\sqrt{1+\cot^{2}\theta}}$ | <center>$\frac{1}{\sec\theta}$               | $\frac{\sqrt{\csc^{2}\theta-1}}{\csc\theta}$ |
-| $\tan\theta\,$ | $\frac{\sin\theta}{\sqrt{1-\sin^{2}\theta}}$ | $\frac{\sqrt{1-\cos^{2}\theta}}{\cos\theta}$ | <center>$\tan\theta\,$                       | <center>$\frac{1}{\cot\theta}$               | $\sqrt{sec^{2}\theta-1}$                     | $\frac{1}{\sqrt{\csc^{2}\theta-1}}$ |
-| $\cot\theta\,$ | $\frac{\sqrt{1-\sin^{2}\theta}}{\sin\theta}$ | $\frac{\cos\theta}{\sqrt{1-\cos^{2}\theta}}$ | <center>$\frac{1}{\tan\theta}$               | <center>$\cot\theta\,$                       | $\frac{1}{\sqrt{\sec^{2}\theta-1}}$          | $\sqrt{\csc^{2}\theta-1}$ |
-| $\sec\theta\,$ | $\frac{1}{\sqrt{1-\sin^{2}\theta}}$          | <center>$\frac{1}{\cos\theta\,}$             | $\sqrt{1+\tan^{2}\theta}$                    | $\frac{\sqrt{1+\cot^{2}\theta}}{\cot\theta}$ | <center>${\sec\theta}\,$                     | $\frac{\csc\theta}{\sqrt{\csc^{2}\theta-1}}$ |
-| $\csc\theta\,$ | <center>$\frac{1}{\sin\theta\,}$             | $\frac{1}{\sqrt{1-\cos^{2}\theta}}$          | $\frac{\sqrt{1+\tan^{2}\theta}}{\tan\theta}$ | $\sqrt{1+\cot^{2}\theta}$                    | $\frac{\sec\theta}{\sqrt{\sec^{2}\theta-1}}$ | <center>${\csc\theta}\,$ |
-
-</center>
 
 ### 1.1.4. Identidades trigonométricas
 
@@ -243,11 +240,104 @@ $$
 
 ## 3.1. Las Ciencias Sociales y su objeto de estudio[^3.1]
 
+Lo que caracteriza la actividad cognitiva del científico es la búsqueda y el descubrimiento de las leyes por las que se rige el universo o las sociedades e individuos humanos. Así, por ejemplo, los físicos y astrónomos pretenden hallar, al cabo de sus investigaciones, las leyes matemáticas que describen adecuadamente los movimientos de determinados cuerpos celestes. Iqualmente, un biólogo investiga las leyes seqún las cuales se transmiten, por ejemplo, caracteres hereditarios en una cierta especie. Se puede decir, en general, que la ciencia ha alcanzado un alto grado de madurez cuando es capaz de formular leyes matematicas que le permiten predecir con la mayor exactitud posible el comportamiento de los objetos con los que trabaja. La gran posibilidad que las leyes cientificas aportan a los seres humanos es la de hacer predicciones.
+
+En el siglo XVIII, gracias a que la Ilustración había colocado en el centro de la reflexión a la razón, nació, con autonomía, el análisis de los temas sociales, en lo que hoy se conoce como ciencias sociales. En esta época se comienzan a estudar disciplinas como la historia, la geografía, la sociología y otras. Las ciencias sociales siguen desarrollandose, y debido a la complejidad de lo social, siempre están abiertas a nuevas disciplinas.
+
+Podemos decir que las ciencias sociales son aquellas que estudian la convivencia social y las diversas estructuras de las relaciones de los seres humano, con la finalidad de investigar las leyes que rigen los fenómenos humanos en un ámbito determinado de la sociedad.
+
+En sí, las ciencias sociales se diferencian de las naturalez en el objeto de estudio (éstas estudian las relaciones de los hombres entre sí, mientras que las otras estudian los procesos, cambios y transformaciones de la materia tal como se presentan en la naturaleza), en el método y las técnicas de investigación, y en la posición y papel del científico.
+
+Los Estudios Sociales son un conjunto de métodos y técnicas que poseen las Ciencias Sociales para estudiar a los seres humanos, sus relaciones sociales y naturales, para conocer y analizar sus problemáticas y presentar posibles soluciones.
+
+Entre las ciencias sociales se encuentran: la economía, la antropología, la historia, la geografía humana, la psicología social y, por supuesto, la sociología.
+
+### 3.1.1. Objeto de estudio
+
+Las ciencias sociales buscan comprender la realidad en la que vive v se desarrolla el ser humano en sociedad y sus instituciones, a través de estudios disciplinados y sistemáticos. Su objeto de estudio son los fenómenos sociales, entendidos en su más amplia concepción: los procesos humanos en sociedad, sus causas, consecuencias, factores y variables que influyen debido al comportamiento en conjunto.
+
+Las ciencias sociales analizan la realidad social que impacta en la sociedad y lo hacen a través de preguntas. Estas interrogantes son el problema que buscará resolver el investigador o investigadora social, a lo que propondrá una respuesta provisoria (hipótesis), que buscará confirmar o rechazar por medio de la recopilación de datos y el análisis de los mismos. Con los diferentes métodos de investigación que se pueden encontrar para este tipo de estudio, el investigador o investigadora social pretende:
+
+- Explicar fenómenos sociales, procesos históricos y diferentes sucesos que marcan precedencia como sociedad.
+- Conocer al sujeto social en su contexto: espacio, tiempo y cultura.
+- Poder presentar de manera entendible a la sociedad las causas de las realidades que viven, dar a conocer los hechos en si mismos y poder extraer consecuencias de ese proceso social.
+- Finalmente, prever alqunos escenarios sociales futuros (aunque sea muy provisoriamente), para poder evitar etectos nocivos y propiciar cambios.
+
 ## 3.2. Las dificultades del conocimiento científico sobre la realidad social[^3.2]
+
+El conociemiento exacto de un comportamiento futuro implica una riqueza enorme de posibles aplicaciones prácticas (técnicas) de los avances del conocimiento humano. Ciertamente esta exactitud se logra más fácilmente en las ciencias naturales que en las ciencias humanas y sociales. Dados una serie de datos, por ejemplo, sobre los movimientos de los planetas en el sistema solar, podemos predecir con gran precisión el momento en que se producirá un eclipse de sol. 
+
+En otras ciencias, como la economía o la sociología, que trabajan con fenómenos humanos, es más difícil la formulación de leyes tan rigurosas: no es fácil predecir una crisis económica o una revolución social. Pero no cabe duda de que, a pesar de tales limitaciones, la intención de los científicos sociales es también la de descubrir las leyes que rigen los fenómenos humanos y sociales; y el acierto en un buen número de sus pronósticos atestigua que tal descubrimiento se logra, al menos parcialmente.
 
 ## 3.3. Métodos y técnicas de la investigación social[^3.3]
 
+### 3.3.1. Tipos de estudios
+
+Según el nivel de conocimiento científico (observación, descripción, explicación) al que espera llegar el investigador, se debe formular el tipo de estudio, es decir de acuerdo al tipo de información que espera obtener, así como el nivel de análisis que deberá realizar. También se tendrán en cuenta los objetivos y las hipótesis planteadas con anterioridad. Los estudios se clasifican en:
+
+#### 3.3.1.1. Clasificaión de los estudios de Investigación
+
+Diseño experimentales. En ellos el investigador desea comprobar los efectos de una intervención específica, en este caso el investigador tiene un papel activo, pues lleva a cabo una intervención.
+
+Diseño no experimentales. En ellos el investigador observa los fenómenos tal y como ocurren naturalmente, sin intervenir en su desarrollo.
+
+Otra dimensión comprende el grado de estructuración impuesta por anticipado al estudio, los estudios cuantitativos tienden a ser altamente estructurados, de modo que el investigador especifica las características principales del diseño antes de obtener un solo dato.
+
+Por el contrario, el diseño de los estudios cualitativos es más flexible; permite e incluso estimula la realización de ajustes, a fin de sacar provecho a la información reunida en las fases tempranas de su realización.
+
+Otra dimensión importante se refiere al empleo que hace el estudio de la dimensión temporal. Los diseños transversales implican la recolección de datos en un solo corte en el tiempo, mientras que los diseños longitudinales reúnen datos en dos o más momentos. La aplicación de un diseño longitudinal es recomendable para el tratamiento de problemas de investigación que involucran tendencias, cambios o desarrollos a través del tiempo, o bien, en los casos en que se busque demostrar la secuencia temporal de los fenómenos. Los estudios de tendencias investigan un particular fenómeno en curso del tiempo, con base en la toma repetida de diferentes muestras provenientes de la misma población general.
+
+En los estudios de cohorte, se examina un determinado fenómeno en el curso del tiempo recurriendo a una particular subpoblación (por lo general, un grupo de población o cohorte de determinadas edades). Los estudios longitudinales en los cuales se interroga dos o más veces a una misma muestra de sujetos se conocen como estudios de segmentos. De similar modo, los estudios de seguimiento estudian en dos o más momentos a los mismos sujetos, quienes por lo general han recibido un tratamiento o comparten una particular característica de interés; el seguimiento persigue, así, estudiar su desarrollo subsecuente. Los estudios longitudinales suelen ser costosos, requieren una mayor inversión de tiempo y conllevan numerosas dificultades como la atricción (pérdida de sujetos con el tiempo); sin embargo, frecuentemente resultan de gran valor, en virtud de la información que arrojan.
+
+La investigación busca elucidar las relaciones causa­efecto. Los estudios no experimentales emplean, para este propósito, diseños retrospectivos o prospectivos. En los diseños retrospectivos, el investigador observa la manifestación de algún fenómeno (v. dependiente) e intenta identificar retrospectivamente sus antecedentes o causas (v. independiente). Los estudios prospectivos se inician con la observación de ciertas causas presumibles y avanzan longitudinalmente en el tiempo a fin de observar sus consecuencias. La investigación prospectiva se inicia, por lo común, después de que la investigación retrospectiva ha producido evidencia importante respecto a determinadas relaciones causales.
+
+### 3.3.2. Metodos de investigación
+
+Los métodos, técnicas e instrumentos son herramientas metodológicas de la investigación, que permiten desarrollar las diferentes etapas de los procesos de la invesgación científica. Su implementación se facilita logrando con efectividad los objetivos que se pretenden alcanzar en estudio de un proyecto.
+
+En forma general, el método es la manera de alcanzar un objetivo y se define como un determinado procedimiento para ordenar una actividad. Se puede decir que el método es el camino que se sigue para lograr el conocimiento objetivo de la realidad de un fenómeno de estudio. Esto se refiere a criterios generales que orientan el trabajo del investigador a obtener un conocimiento objetivo de la realidad de un estudio de investigación.
+
+> Es el conjunto de procedimientos de la investigación que se pueden aplicar a cualquier ciencia y se considera la base teórica del conocimiento científico
+
+#### 3.3.2.1. La Observación
+
+Es un procedimiento importante en la investigación científica, puede entenderse como “el proceso mediante el cual se perciben deliberadamente ciertos rasgos existentes en la realidad por medio de un esquema conceptual previo y con base en ciertos propósitos definidos generalmente por una conjetura que se quiere investigar”. La observación supone unas condiciones especiales:
+
+- Debe servir para lograr resultados de los objetivos planteados en la investigación.
+- Debe ser planeada de una manera sistemática. El investigador debe definir qué quiere observar y cuáles son sus posibles resultados.
+- Debe ser controlada sistemáticamente por el investigador y estar relacionada con proposiciones teóricas referidas al objeto de investigación. Por ello, quien observa debe conocer a fondo el marco teórico sobre el cual fundamenta su investigación.
+
+#### 3.3.2.2. Inducción-­deducción
+
+La inducción consiste en ir de los casos particulares a la generalización; se inicia por la observación de fenómenos particulares con el propósito de llegar a conclusiones y premisas generales. La deducción, en ir de lo general a lo particular; se inicia con la observación de fenómenos generales con el propósito de señalar las verdades particulares. El proceso deductivo no es suficiente por sí mismo para explicar el conocimiento.
+
+#### 3.3.2.3. Análisis y síntesis
+
+Análisis y síntesis son procesos que permiten al investigador conocer la realidad. El análisis maneja juicios, es un proceso de conocimiento que se inicia por la identificación de cada una de las partes que caracterizan una realidad, podrá establecer la relación causa­efecto entre los elementos que componen el objeto de investigación. La síntesis considera los objetos como un todo, la interrelación de los elementos que identifican el objeto. El método que emplea el análisis y la síntesis consiste en separar el objeto de estudio en dos partes y, una vez comprendida su esencia, construir un todo. Análisis y síntesis son dos procesos que se complementan en uno.
+
+### 3.3.3. Técnicas de investigación
+
+> Las técnicas son los instrumentos que se utilizan para recolectar y registrar la información
+
+1. La observación: técnica que consiste en observar el fenómeno, hecho o caso, tomar información y registrarla para su posterior análisis. Se deben clasificar los hechos y acciones de acuerdo con los objetivos y determinar cuáles servirán a los propósitos de la investigación.
+2. La entrevista: es la comunicación entre el investigador y los sujetos de estudio, para obtener respuestas acerca del problema que se investiga. Se aplica a todo tipo de personas. Es una técnica antigua, pues ha sido utilizada desde hace mucho en Psicología y, desde su notable desarrollo, en Sociología y en Educación; en dichas ciencias, constituye una técnica indispensable para obtener ciertos datos.
+3. La encuesta. Recolecta opiniones que permitirán al investigador comprender mejor los hechos del problema o fenómeno que investiga. Se obtiene por interrogación escrita y su instrumento es el cuestionario; es una técnica destinada a obtener datos de varias personas cuyas opiniones impersonales interesan al investigador. 
+
 ## 3.4. Antecedentes de los Acuerdos de Paz: Los diálogos de la Palma, Ayagualo y La Nunciatura[^3.4]
+
+La firma del Acuerdo de Paz fue precedida de un proceso de negociación que
+arrancó casí tan lejos como la propia querra salvadoreña, si se considera como inicio de negociación la propuesta que el gobierno del presidente Carter formuló al FMLN a finales de 1980, un poco antes de que el conflicto bélico estallara abiertamente a partir de la ofensiva general del FMLN, el 10 de enero de 1981.
+
+Es a partir de la invitación que el presidente Duarte formuló al FMLN-FDR para reunirse en La Palma (Chalatenango), en octubre de 1984, que el gobierno salvadoreño admite, implícitamente, la legitimidad del movimiento revolucionario como parte beligerante y, consecuentemente, como interlocutor para buscarle una salida política al conflicto. La invitación de Duarte constituyó a la vez la aceptación oficial de la legitimidad del diálogo mismo como mecanismo para encontrarle una solución negociada al conflicto.
+
+En la práctica, el presidente Duarte contaba con márgenes muy estrechos para negociar. Si bien su iniciativa contó con el apoyo verbal de la Administración Reagan y del Alto Mando de la Fuerza Armada, de hecho estos poderes le impusieron límites y condiciones, que disminuyeron ostensiblemente los márgenes de negociación de equipo gubernamental.
+
+Además, Duarte tuvo que enfrentar a lo largo de toda su presidencia la oposición de la derecha civil, que controlaba la mayor parte del aparato productivo y la mayoría de los medios de comunicación. Por otro lado, el FMLN sostenía posiciones y exigencias maximalistas, para las cuales no había posibilidades de realización. En el fondo, ambas partes beligerantes confiaban aún en sus fuerzas para lograr una victoria militar sobre su oponente.
+
+| Lugar y Fecha | Tema tratado | Acuerdos obtenidos |
+| ------------- | ------------ | ------------------ |
+La Palma, Chalatengango <br> 15/10/1986 | La incorporación del FMLN al proceso democrático y la preparación de la próxima consulta popular. Las propuestas de solución del conflicto salvadoreño. <br> El gobierno y las fuerzas armadas solicitaron al FMLN el abandono de las armas para poder convertirse en partido político. Al FDR le pidieron participar en las proximas elecciones legislativas. <br> El FMLN proponía el reparto del poder político para formar un gobierno de transición que hiciera concretas las reformas económicas y sociales que llevarían a la paz social. | Creación de una comisión mixta creada por cuatro delegados del gobierno y cuatro del FMLN-FDR para que estudiaran las propuestas de paz, presentadas por las partes del conflicto. <br> Participación del FMLN en las elecciones como partido político.
+Ayagualo, La Libertad <br> 30/11/1984 | La resolución del conflicto armado.  
 
 ## 3.5. Los factores que hicieron posibles los Acuerdos de Paz: internos y externos[^3.5]
 
@@ -818,6 +908,8 @@ Son palabras de otro idioma adaptadas al español.
 
 <!-- Footnotes -->
 
+<!-- Matemáticas -->
+
 [^1.1]: https://es.wikipedia.org/wiki/Trigonometría#Razones_trigonométricas
 [^1.2]: Pág.
 [^1.3]: Pág.
@@ -842,6 +934,8 @@ Son palabras de otro idioma adaptadas al español.
 [^1.22]: Pág.
 [^1.23]: Pág.
 [^1.24]: Pág.
+
+<!-- Ciencias -->
 
 [^2.1]: Pág.
 [^2.2]: Pág.
@@ -868,17 +962,21 @@ Son palabras de otro idioma adaptadas al español.
 [^2.23]: Pág.
 [^2.24]: Pág.
 
-[^3.1]: Pág.
-[^3.2]: Pág.
-[^3.3]: Pág.
-[^3.4]: Pág.
-[^3.5]: Pág.
-[^3.6]: Pág.
+<!-- Sociales -->
+
+[^3.1]: Pág. 22 - 24 (ESE), 30 - 35 (SEMINARIO I), 10 (Santillana)
+[^3.2]: Pág. 22 - 24 (ESE), 30 - 35 (SEMINARIO I)
+[^3.3]: Pág. 130 - 137 (SEMINARIO II), 103, 111 (SEMINARIO I), https://nodo.ugto.mx/wp-content/uploads/2016/05/Tipos-de-estudio-y-métodos-de-investigación.pdf
+[^3.4]: Pág. 76 - 81 (Santillanas), 124 - 130 (ESE)
+[^3.5]: Pág. 76 - 81 (Santillanas), 130 - 142 (ESE)
+[^3.6]: Pág. 76 - 81 (Santillanas), 142 - 152 (ESE)
 [^3.7]: Pág.
 [^3.8]: Pág.
 [^3.9]: Pág.
 [^3.10]: Pág.
 [^3.11]: Pág.
+
+<!-- Lenguaje -->
 
 [^4.1]: Pág. 17
 [^4.2]: Pág. 18 - 19
