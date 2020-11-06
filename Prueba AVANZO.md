@@ -70,18 +70,15 @@ Normalmente se emplean las relaciones trigonométricas seno, coseno y tangente, 
 
 ### 1.1.3. Equivalencia entre las funciones trigonométricas
 
-<center>
+| Seno           |                    Coseno                    |                   Tangente                   |                  Cotangente                  |                   Secante                    |                  Cosecante                   |
+| -------------- | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: | :------------------------------------------: |
+| $\sin\theta\,$ |                $\sin\theta\,$                |          $\sqrt{1-\cos^{2}\theta}$           | $\frac{\tan\theta}{\sqrt{1+\tan^{2}\theta}}$ |     $\frac{1}{\sqrt{1+\cot^{2}\theta}}$      | $\frac{\sqrt{\sec^{2}\theta-1}}{\sec\theta}$ | $\frac{1}{\csc\theta}$                       |
+| $\cos\theta\,$ |          $\sqrt{1-\sin^{2}\theta}$           |                $\cos\theta\,$                |     $\frac{1}{\sqrt{1+\tan^{2}\theta}}$      | $\frac{\cot\theta}{\sqrt{1+\cot^{2}\theta}}$ |            $\frac{1}{\sec\theta}$            | $\frac{\sqrt{\csc^{2}\theta-1}}{\csc\theta}$ |
+| $\tan\theta\,$ | $\frac{\sin\theta}{\sqrt{1-\sin^{2}\theta}}$ | $\frac{\sqrt{1-\cos^{2}\theta}}{\cos\theta}$ |                $\tan\theta\,$                |            $\frac{1}{\cot\theta}$            |           $\sqrt{sec^{2}\theta-1}$           | $\frac{1}{\sqrt{\csc^{2}\theta-1}}$          |
+| $\cot\theta\,$ | $\frac{\sqrt{1-\sin^{2}\theta}}{\sin\theta}$ | $\frac{\cos\theta}{\sqrt{1-\cos^{2}\theta}}$ |            $\frac{1}{\tan\theta}$            |                $\cot\theta\,$                |     $\frac{1}{\sqrt{\sec^{2}\theta-1}}$      | $\sqrt{\csc^{2}\theta-1}$                    |
+| $\sec\theta\,$ |     $\frac{1}{\sqrt{1-\sin^{2}\theta}}$      |           $\frac{1}{\cos\theta\,}$           |          $\sqrt{1+\tan^{2}\theta}$           | $\frac{\sqrt{1+\cot^{2}\theta}}{\cot\theta}$ |               ${\sec\theta}\,$               | $\frac{\csc\theta}{\sqrt{\csc^{2}\theta-1}}$ |
+| $\csc\theta\,$ |           $\frac{1}{\sin\theta\,}$           |     $\frac{1}{\sqrt{1-\cos^{2}\theta}}$      | $\frac{\sqrt{1+\tan^{2}\theta}}{\tan\theta}$ |          $\sqrt{1+\cot^{2}\theta}$           | $\frac{\sec\theta}{\sqrt{\sec^{2}\theta-1}}$ | ${\csc\theta}\,$                             |
 
-| Seno           | Coseno                                       | Tangente                                     | Cotangente                                   | Secante                                      | Cosecante                                    |
-| -------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- |
-| $\sin\theta\,$ | <center>$\sin\theta\,$                       | $\sqrt{1-\cos^{2}\theta}$                    | $\frac{\tan\theta}{\sqrt{1+\tan^{2}\theta}}$ | $\frac{1}{\sqrt{1+\cot^{2}\theta}}$          | $\frac{\sqrt{\sec^{2}\theta-1}}{\sec\theta}$ | <center>$\frac{1}{\csc\theta}$ |
-| $\cos\theta\,$ | $\sqrt{1-\sin^{2}\theta}$                    | <center>$\cos\theta\,$                       | $\frac{1}{\sqrt{1+\tan^{2}\theta}}$          | $\frac{\cot\theta}{\sqrt{1+\cot^{2}\theta}}$ | <center>$\frac{1}{\sec\theta}$               | $\frac{\sqrt{\csc^{2}\theta-1}}{\csc\theta}$ |
-| $\tan\theta\,$ | $\frac{\sin\theta}{\sqrt{1-\sin^{2}\theta}}$ | $\frac{\sqrt{1-\cos^{2}\theta}}{\cos\theta}$ | <center>$\tan\theta\,$                       | <center>$\frac{1}{\cot\theta}$               | $\sqrt{sec^{2}\theta-1}$                     | $\frac{1}{\sqrt{\csc^{2}\theta-1}}$ |
-| $\cot\theta\,$ | $\frac{\sqrt{1-\sin^{2}\theta}}{\sin\theta}$ | $\frac{\cos\theta}{\sqrt{1-\cos^{2}\theta}}$ | <center>$\frac{1}{\tan\theta}$               | <center>$\cot\theta\,$                       | $\frac{1}{\sqrt{\sec^{2}\theta-1}}$          | $\sqrt{\csc^{2}\theta-1}$ |
-| $\sec\theta\,$ | $\frac{1}{\sqrt{1-\sin^{2}\theta}}$          | <center>$\frac{1}{\cos\theta\,}$             | $\sqrt{1+\tan^{2}\theta}$                    | $\frac{\sqrt{1+\cot^{2}\theta}}{\cot\theta}$ | <center>${\sec\theta}\,$                     | $\frac{\csc\theta}{\sqrt{\csc^{2}\theta-1}}$ |
-| $\csc\theta\,$ | <center>$\frac{1}{\sin\theta\,}$             | $\frac{1}{\sqrt{1-\cos^{2}\theta}}$          | $\frac{\sqrt{1+\tan^{2}\theta}}{\tan\theta}$ | $\sqrt{1+\cot^{2}\theta}$                    | $\frac{\sec\theta}{\sqrt{\sec^{2}\theta-1}}$ | <center>${\csc\theta}\,$ |
-
-</center>
 
 ### 1.1.4. Identidades trigonométricas
 
@@ -327,6 +324,20 @@ Análisis y síntesis son procesos que permiten al investigador conocer la reali
 3. La encuesta. Recolecta opiniones que permitirán al investigador comprender mejor los hechos del problema o fenómeno que investiga. Se obtiene por interrogación escrita y su instrumento es el cuestionario; es una técnica destinada a obtener datos de varias personas cuyas opiniones impersonales interesan al investigador. 
 
 ## 3.4. Antecedentes de los Acuerdos de Paz: Los diálogos de la Palma, Ayagualo y La Nunciatura[^3.4]
+
+La firma del Acuerdo de Paz fue precedida de un proceso de negociación que
+arrancó casí tan lejos como la propia querra salvadoreña, si se considera como inicio de negociación la propuesta que el gobierno del presidente Carter formuló al FMLN a finales de 1980, un poco antes de que el conflicto bélico estallara abiertamente a partir de la ofensiva general del FMLN, el 10 de enero de 1981.
+
+Es a partir de la invitación que el presidente Duarte formuló al FMLN-FDR para reunirse en La Palma (Chalatenango), en octubre de 1984, que el gobierno salvadoreño admite, implícitamente, la legitimidad del movimiento revolucionario como parte beligerante y, consecuentemente, como interlocutor para buscarle una salida política al conflicto. La invitación de Duarte constituyó a la vez la aceptación oficial de la legitimidad del diálogo mismo como mecanismo para encontrarle una solución negociada al conflicto.
+
+En la práctica, el presidente Duarte contaba con márgenes muy estrechos para negociar. Si bien su iniciativa contó con el apoyo verbal de la Administración Reagan y del Alto Mando de la Fuerza Armada, de hecho estos poderes le impusieron límites y condiciones, que disminuyeron ostensiblemente los márgenes de negociación de equipo gubernamental.
+
+Además, Duarte tuvo que enfrentar a lo largo de toda su presidencia la oposición de la derecha civil, que controlaba la mayor parte del aparato productivo y la mayoría de los medios de comunicación. Por otro lado, el FMLN sostenía posiciones y exigencias maximalistas, para las cuales no había posibilidades de realización. En el fondo, ambas partes beligerantes confiaban aún en sus fuerzas para lograr una victoria militar sobre su oponente.
+
+| Lugar y Fecha | Tema tratado | Acuerdos obtenidos |
+| ------------- | ------------ | ------------------ |
+La Palma, Chalatengango <br> 15/10/1986 | La incorporación del FMLN al proceso democrático y la preparación de la próxima consulta popular. Las propuestas de solución del conflicto salvadoreño. <br> El gobierno y las fuerzas armadas solicitaron al FMLN el abandono de las armas para poder convertirse en partido político. Al FDR le pidieron participar en las proximas elecciones legislativas. <br> El FMLN proponía el reparto del poder político para formar un gobierno de transición que hiciera concretas las reformas económicas y sociales que llevarían a la paz social. | Creaci´n de una comisión mixta creada por cuatro delegados del gobierno y cuatro del FMLN-FDR para que estudiaran las propuestas de paz, presentadas por las partes del conflicto. <br> Participación del FMLN en las elecciones como partido político.
+Ayagualo, La Libertad <br> 30/11/1984 | La resolución del conflicto armado. 
 
 ## 3.5. Los factores que hicieron posibles los Acuerdos de Paz: internos y externos[^3.5]
 
