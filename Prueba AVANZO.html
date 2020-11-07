@@ -20,10 +20,11 @@
 .task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
 </style>
         <style>
-
 * { font-family: 'Times New Roman', Times, serif; } p { font-size: 12pt; text-indent: 1in; text-align: justify; margin-bottom: 0ch; } blockquote p { text-indent: 0in; } h1 { text-align: center; line-height: 1.5em; page-break-before: always; } h1.header { page-break-before: avoid; } h2 { text-align: justify; font-size: 12pt; text-indent: 0in; font-weight: bold; margin-bottom: 0.5ch; margin-top: 0.5ch; } h3 { text-align: justify; text-indent: 1in; font-weight: bold; font-size: 12pt; margin-bottom: 0.5ch; margin-top: 0.5ch; } h4 { text-align: justify; text-indent: 1in; font-style: italic; font-size: 12pt; margin-bottom: 0.5ch; margin-top: 0.5ch; } img { display: block; margin: auto; margin-bottom: 1em; margin-top: 1em; } table { margin-left:auto; margin-right:auto; margin-bottom: 1em; margin-top: 1em; } table > thead > tr > th { text-align: justify; text-align-last: center; border-bottom: 1pt solid; } .footnotes-list p { text-indent: 0in; } ul { font-size: 12pt; padding-left: 0in; margin-left: 1in; } @media print { html, body { padding: 0in; } @page { margin: 2cm; } h1.header { padding-top: 55%; } blockquote { margin-left: 0.4in; padding-right: 0in; margin-right: 0.4in; border-left: none; border-right: none; background-color: whitesmoke; } blockquote p { text-indent: 0in; padding-left: 0.1in; padding-right: 0.1in; text-align: justify; text-align-last: center; } blockquote p::before { content: '"'; } blockquote p::after { content: '".'; } }
-
 </style>
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+        
+    </head>
     <body class="vscode-light">
         <!-- title: Prueba AVANZO | Arthur Martelli Gomes -->
 <p class="space"></p>
@@ -34,39 +35,27 @@
 <h2 id="11-razones-trigonométricas">1.1. Razones trigonométricas<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h2>
 <h3 id="111-razones-trigonométricas">1.1.1. Razones trigonométricas</h3>
 <p>El triángulo <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>ABC</mtext></mrow><annotation encoding="application/x-tex">\text{ABC}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">ABC</span></span></span></span></span> es un triángulo rectángulo en <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>C</mtext></mrow><annotation encoding="application/x-tex">\text{C}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">C</span></span></span></span></span>; lo usaremos para definir las razones seno, coseno y tangente, del ángulo <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span></span>, correspondiente al vértice <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>A</mtext></mrow><annotation encoding="application/x-tex">\text{A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord text"><span class="mord">A</span></span></span></span></span>, situado en el centro de la circunferencia.</p>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Trigonometria_aa1.svg/280px-Trigonometria_aa1.svg.png" alt="Razones trigonométricas"></p>
-<ul>
-<li><strong>El seno</strong> (abreviado como sen, o sin por llamarse &quot;sĭnus&quot; en latín) es la razón entre el cateto opuesto al ángulo y la hipotenusa.</li>
-</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Trigonometria_aa1.svg/280px-Trigonometria_aa1.svg.png" alt="Razones trigonométricas">
+-<strong>El seno</strong> (abreviado como sen, o sin por llamarse &quot;sĭnus&quot; en latín) es la razón entre el cateto opuesto al ángulo y la hipotenusa.</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><mi>sin</mi><mo>⁡</mo><mi>α</mi><mo>=</mo><mfrac><mover accent="true"><mrow><mi>C</mi><mi>B</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac></mstyle></mrow><annotation encoding="application/x-tex">    {\displaystyle \sin \alpha ={\frac {\overline {CB}}{\overline {AB}}}}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.33366em;vertical-align:-0.7733300000000001em;"></span><span class="mord"><span class="mop">sin</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span></p>
-<ul>
-<li><strong>El coseno</strong> (abreviado como cos) es la razón entre el cateto adyacente o contiguo al ángulo y la hipotenusa.</li>
-</ul>
+<p>-<strong>El coseno</strong> (abreviado como cos) es la razón entre el cateto adyacente o contiguo al ángulo y la hipotenusa.</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><mi>cos</mi><mo>⁡</mo><mi>α</mi><mo>=</mo><mfrac><mover accent="true"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac></mstyle></mrow><annotation encoding="application/x-tex">    {\displaystyle \cos \alpha ={\frac {\overline {AC}}{\overline {AB}}}}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.33366em;vertical-align:-0.7733300000000001em;"></span><span class="mord"><span class="mop">cos</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span></p>
-<ul>
-<li><strong>La tangente</strong> (abreviado como tan o tg) es la razón entre el cateto opuesto al ángulo y el cateto adyacente.</li>
-</ul>
+<p>-<strong>La tangente</strong> (abreviado como tan o tg) es la razón entre el cateto opuesto al ángulo y el cateto adyacente.</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><mi>tan</mi><mo>⁡</mo><mi>α</mi><mo>=</mo><mfrac><mover accent="true"><mrow><mi>C</mi><mi>B</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac><mo>=</mo><mfrac><mover accent="true"><mrow><mi>D</mi><mi>E</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>A</mi><mi>D</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac></mstyle></mrow><annotation encoding="application/x-tex">    {\displaystyle \tan \alpha ={\frac {\overline {CB}}{\overline {AC}}}={\frac {\overline {DE}}{\overline {AD}}}}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.33366em;vertical-align:-0.7733300000000001em;"></span><span class="mord"><span class="mop">tan</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span></p>
 <h4 id="1111-representación-gráfica">1.1.1.1. Representación gráfica</h4>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Funci%C3%B3n_Trigonom%C3%A9trica_R111.svg" alt="Representación gráfica de las razones trigonométricas"></p>
 <h3 id="112-razones-trigonométricas-inversas">1.1.2. Razones trigonométricas inversas</h3>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Trigonometria_ac0.svg/280px-Trigonometria_ac0.svg.png" alt="Razones trigonométricas inversas"></p>
-<ul>
-<li><strong>La cosecante:</strong> (abreviado como csc o cosec) es la razón inversa de seno, o también su inverso multiplicativo:</li>
-</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Trigonometria_ac0.svg/280px-Trigonometria_ac0.svg.png" alt="Razones trigonométricas inversas">
+-<strong>La cosecante:</strong> (abreviado como csc o cosec) es la razón inversa de seno, o también su inverso multiplicativo:</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><mi>csc</mi><mo>⁡</mo><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>sin</mi><mo>⁡</mo><mtext>  </mtext><mi>α</mi></mrow></mfrac><mo>=</mo><mfrac><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>C</mi><mi>B</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac><mo>=</mo><mfrac><mover accent="true"><mrow><mi>A</mi><mi>G</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>A</mi><mi>F</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac></mstyle></mrow><annotation encoding="application/x-tex">    {\displaystyle \csc \alpha ={\frac {1}{\sin \;\alpha }}={\frac {\overline {AB}}{\overline {CB}}}={\frac {\overline {AG}}{\overline {AF}}}}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.33366em;vertical-align:-0.7733300000000001em;"></span><span class="mord"><span class="mop">csc</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mop">sin</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault">G</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span></p>
-<ul>
-<li><strong>La secante:</strong> (abreviado como sec) es la razón inversa de coseno, o también su inverso multiplicativo:</li>
-</ul>
+<p>-<strong>La secante:</strong> (abreviado como sec) es la razón inversa de coseno, o también su inverso multiplicativo:</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><mi>sec</mi><mo>⁡</mo><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>cos</mi><mo>⁡</mo><mtext>  </mtext><mi>α</mi></mrow></mfrac><mo>=</mo><mfrac><mover accent="true"><mrow><mi>A</mi><mi>B</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac><mo>=</mo><mfrac><mover accent="true"><mrow><mi>A</mi><mi>E</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>A</mi><mi>D</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac></mstyle></mrow><annotation encoding="application/x-tex">    {\displaystyle \sec \alpha ={\frac {1}{\cos \;\alpha }}={\frac {\overline {AB}}{\overline {AC}}}={\frac {\overline {AE}}{\overline {AD}}}}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.33366em;vertical-align:-0.7733300000000001em;"></span><span class="mord"><span class="mop">sec</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mop">cos</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span></p>
-<ul>
-<li><strong>La cotangente:</strong> (abreviado como cot o cta o ctg) es la razón inversa de la tangente, o también su inverso multiplicativo:</li>
-</ul>
+<p>-<strong>La cotangente:</strong> (abreviado como cot o cta o ctg) es la razón inversa de la tangente, o también su inverso multiplicativo:</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><mi>cot</mi><mo>⁡</mo><mi>α</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mi>tan</mi><mo>⁡</mo><mi>α</mi></mrow></mfrac><mo>=</mo><mfrac><mover accent="true"><mrow><mi>A</mi><mi>C</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>C</mi><mi>B</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac><mo>=</mo><mfrac><mover accent="true"><mrow><mi>F</mi><mi>G</mi></mrow><mo stretchy="true">‾</mo></mover><mover accent="true"><mrow><mi>A</mi><mi>F</mi></mrow><mo stretchy="true">‾</mo></mover></mfrac></mstyle></mrow><annotation encoding="application/x-tex">    {\displaystyle \cot \alpha ={\frac {1}{\tan \alpha }}={\frac {\overline {AC}}{\overline {CB}}}={\frac {\overline {FG}}{\overline {AF}}}}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.33366em;vertical-align:-0.7733300000000001em;"></span><span class="mord"><span class="mop">cot</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mop">tan</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.56033em;"><span style="top:-2.22667em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord overline"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8833300000000001em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mord mathdefault">G</span></span></span><span style="top:-3.80333em;"><span class="pstrut" style="height:3em;"></span><span class="overline-line" style="border-bottom-width:0.04em;"></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7733300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span></p>
 <p>Normalmente se emplean las relaciones trigonométricas seno, coseno y tangente, y salvo que haya un interés específico en hablar de ellos o las expresiones matemáticas se simplifiquen mucho, los términos cosecante, secante y cotangente no suelen utilizarse</p>
@@ -379,7 +368,8 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <p>Se tiene que:</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><mi>sin</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mi>a</mi><mi>c</mi></mfrac><mo separator="true">,</mo><mspace width="2em"/><mi>cos</mi><mo>⁡</mo><mo stretchy="false">(</mo><mi>α</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mi>b</mi><mi>c</mi></mfrac></mstyle></mrow><annotation encoding="application/x-tex">    {\displaystyle \sin(\alpha )={\frac {a}{c}}, \qquad \cos(\alpha )={\frac {b}{c}}}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.05744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mop">sin</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">c</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mspace" style="margin-right:2em;"></span><span class="mop">cos</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">c</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></span></span></p>
-<p>por tanto:</p>
+<p>por tanto:
+kv</p>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mo><mi>sin</mi><mo>⁡</mo></mo><mn>2</mn></msup><mi>α</mi><mo>+</mo><msup><mo><mi>cos</mi><mo>⁡</mo></mo><mn>2</mn></msup><mi>α</mi><mo>=</mo><mo fence="false" lspace="0em" rspace="0em">(</mo><mfrac><mi>a</mi><mi>c</mi></mfrac><msup><mo fence="false" lspace="0em" rspace="0em">)</mo><mn>2</mn></msup><mo>+</mo><mo fence="false" lspace="0em" rspace="0em">(</mo><mfrac><mi>b</mi><mi>c</mi></mfrac><msup><mo fence="false" lspace="0em" rspace="0em">)</mo><mn>2</mn></msup><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><msup><mi>c</mi><mn>2</mn></msup><msup><mi>c</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">    \sin ^{2}\alpha +\cos ^{2}\alpha ={\bigg (}{\dfrac  {a}{c}}{\bigg )}^{2}+{\bigg (}{\frac  {b}{c}}{\bigg )}^{2}={\frac  {a^{2}+b^{2}}{c^{2}}}={\frac  {c^{2}}{c^{2}}}=1
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.955198em;vertical-align:-0.08333em;"></span><span class="mop"><span class="mop">sin</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.871868em;"><span style="top:-3.12076em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8641079999999999em;vertical-align:0em;"></span><span class="mop"><span class="mop">cos</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.0037em;">α</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.604038em;vertical-align:-0.95003em;"></span><span class="mord"><span class="mord"><span class="delimsizing size3">(</span></span></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">c</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mord"><span class="mord"><span class="mord"><span class="delimsizing size3">)</span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6540080000000001em;"><span style="top:-3.9029000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.604038em;vertical-align:-0.95003em;"></span><span class="mord"><span class="mord"><span class="delimsizing size3">(</span></span></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.37144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">c</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mord"><span class="mord"><span class="mord"><span class="delimsizing size3">)</span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:1.6540080000000001em;"><span style="top:-3.9029000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.177108em;vertical-align:-0.686em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.491108em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.177108em;vertical-align:-0.686em;"></span><span class="mord"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.491108em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">c</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span></span></p>
 <p>entonces para todo ángulo α, se cumple la identidad Pitagórica:</p>
@@ -448,13 +438,8 @@ M834 80h400000v40h-400000z'/></svg></span></span></span><span class="vlist-s">�
 <p>Entre las ciencias sociales se encuentran: la economía, la antropología, la historia, la geografía humana, la psicología social y, por supuesto, la sociología.</p>
 <h3 id="311-objeto-de-estudio">3.1.1. Objeto de estudio</h3>
 <p>Las ciencias sociales buscan comprender la realidad en la que vive v se desarrolla el ser humano en sociedad y sus instituciones, a través de estudios disciplinados y sistemáticos. Su objeto de estudio son los fenómenos sociales, entendidos en su más amplia concepción: los procesos humanos en sociedad, sus causas, consecuencias, factores y variables que influyen debido al comportamiento en conjunto.</p>
-<p>Las ciencias sociales analizan la realidad social que impacta en la sociedad y lo hacen a través de preguntas. Estas interrogantes son el problema que buscará resolver el investigador o investigadora social, a lo que propondrá una respuesta provisoria (hipótesis), que buscará confirmar o rechazar por medio de la recopilación de datos y el análisis de los mismos. Con los diferentes métodos de investigación que se pueden encontrar para este tipo de estudio, el investigador o investigadora social pretende:</p>
-<ul>
-<li>Explicar fenómenos sociales, procesos históricos y diferentes sucesos que marcan precedencia como sociedad.</li>
-<li>Conocer al sujeto social en su contexto: espacio, tiempo y cultura.</li>
-<li>Poder presentar de manera entendible a la sociedad las causas de las realidades que viven, dar a conocer los hechos en si mismos y poder extraer consecuencias de ese proceso social.</li>
-<li>Finalmente, prever alqunos escenarios sociales futuros (aunque sea muy provisoriamente), para poder evitar etectos nocivos y propiciar cambios.</li>
-</ul>
+<p>Las ciencias sociales analizan la realidad social que impacta en la sociedad y lo hacen a través de preguntas. Estas interrogantes son el problema que buscará resolver el investigador o investigadora social, a lo que propondrá una respuesta provisoria (hipótesis), que buscará confirmar o rechazar por medio de la recopilación de datos y el análisis de los mismos. Con los diferentes métodos de investigación que se pueden encontrar para este tipo de estudio, el investigador o investigadora social pretende:
+-Explicar fenómenos sociales, procesos históricos y diferentes sucesos que marcan precedencia como sociedad.-Conocer al sujeto social en su contexto: espacio, tiempo y cultura.-Poder presentar de manera entendible a la sociedad las causas de las realidades que viven, dar a conocer los hechos en si mismos y poder extraer consecuencias de ese proceso social.-Finalmente, prever alqunos escenarios sociales futuros (aunque sea muy provisoriamente), para poder evitar etectos nocivos y propiciar cambios.</p>
 <h2 id="32-las-dificultades-del-conocimiento-científico-sobre-la-realidad-social">3.2. Las dificultades del conocimiento científico sobre la realidad social<sup class="footnote-ref"><a href="#fn50" id="fnref50">[50]</a></sup></h2>
 <p>El conociemiento exacto de un comportamiento futuro implica una riqueza enorme de posibles aplicaciones prácticas (técnicas) de los avances del conocimiento humano. Ciertamente esta exactitud se logra más fácilmente en las ciencias naturales que en las ciencias humanas y sociales. Dados una serie de datos, por ejemplo, sobre los movimientos de los planetas en el sistema solar, podemos predecir con gran precisión el momento en que se producirá un eclipse de sol.</p>
 <p>En otras ciencias, como la economía o la sociología, que trabajan con fenómenos humanos, es más difícil la formulación de leyes tan rigurosas: no es fácil predecir una crisis económica o una revolución social. Pero no cabe duda de que, a pesar de tales limitaciones, la intención de los científicos sociales es también la de descubrir las leyes que rigen los fenómenos humanos y sociales; y el acierto en un buen número de sus pronósticos atestigua que tal descubrimiento se logra, al menos parcialmente.</p>
@@ -529,33 +514,409 @@ arrancó casí tan lejos como la propia querra salvadoreña, si se considera com
 <h2 id="39-el-conflicto-armado-1980-1991">3.9. El conflicto armado (1980-1991)<sup class="footnote-ref"><a href="#fn57" id="fnref57">[57]</a></sup></h2>
 <h2 id="310-los-movimientos-sociales-en-el-salvador-y-su-contribución-al-proceso-de-democratización">3.10. Los movimientos sociales en El Salvador y su contribución al proceso de democratización<sup class="footnote-ref"><a href="#fn58" id="fnref58">[58]</a></sup></h2>
 <h2 id="311-el-sindicalismo-salvadoreño-en-el-siglo-xx-orígenes-y-desarrollo-histórico">3.11. El sindicalismo salvadoreño en el Siglo XX: orígenes y desarrollo histórico<sup class="footnote-ref"><a href="#fn59" id="fnref59">[59]</a></sup></h2>
-<h1 id="4-lenguaje-y-literatura">4. Lenguaje y Literatura</h1>
+<h1 id="4-lenguaje-y-litveratura">4. Lenguaje y Litveratura</h1>
 <h2 id="41-el-clasicismo-griego-epopeyas-homéricas-características-valores-y-recursos">4.1. El clasicismo griego. Epopeyas homéricas: características, valores y recursos<sup class="footnote-ref"><a href="#fn60" id="fnref60">[60]</a></sup></h2>
+<p>La poesìa èpica exaltaba las hazañas de los hèroes y los dioses. En su origen, los poemas eran cantados por un aedo o cantor que viajaba de pueblo en pueblo y tenìa un fuerte vìnculo con la nobleza</p>
+<h3 id="características">Características</h3>
+<ul>
+<li>Las obras se inspiran en mitos. Sus historia giran alrededor del ciclo troyano o ciclo tebano.</li>
+<li>El destino es inevitable en sus historias. Destaca Edipo, quien es destinado a matar a su padre y con todos los giros de la trama, esto llega a suceder inevitalemente.</li>
+<li>La búsqueda de la belleza mediante la armonía entre forma y fondo:  El estilo está determinado por el tema. Por ejemplo, la epopeya requiere un lenguaje elevado; la tragedia, un lenguaje solemne y la comedia, un lenguaje coloquial.</li>
+<li>La literatura griega clásica tiene también un fin didáctico ya que posee un afán de inculcar valores.</li>
+<li>Es racional: Los dioses y personajes no se mueven casualmente ni de milagro, sino a causa de motivos o razones, todo está sistematizado.</li>
+<li>Esta literatura es también antropomórfica, ya que sus personajes tienen cualidades humanas, incluso los dioses tienen estas caracterísitcas, ya que se alimentan, beben e incluso tienen un mundo psicológico, tal como los humanos.</li>
+</ul>
+<h3 id="valores">Valores</h3>
+<ul>
+<li>La fortaleza</li>
+<li>El valor</li>
+<li>El sacrificio</li>
+<li>La lealtad</li>
+</ul>
+<h3 id="recursos">Recursos</h3>
+<p>la literatura griega empezó con la Ilíada y la Odisea, atribuidas ambas a Homero, un aedo ciego.</p>
 <h2 id="42-la-tragedia-griega-características-valores-y-obras-representativas">4.2. La tragedia griega: características, valores y obras representativas<sup class="footnote-ref"><a href="#fn61" id="fnref61">[61]</a></sup></h2>
+<p>Las primeras representaciones teatrales fueron tragedias y en ellas se escenificaban los episodios y temas mitológicos. se ponían así en escenas hecho de la vida de los héroe caracterizados por el sufrimiento, la grandeza, el dolor y la catástrofe.</p>
+<h3 id="caracteristicas">Caracteristicas</h3>
+<ul>
+<li>Por lo general, este escrito apuntaba a que los textos debían estar centrados en una temática dolorosa y que tuviera como objetivo conocer mejor al ser humano</li>
+<li>Por supuesto, una de las características de la tragedia griega más destacadas es la existencia del coro.</li>
+<li>Las tragedias contaban con un elenco pequeño de actores. De hecho, lo habitual era que fueran dos los que aparecieran al principio de la obra y tres al final. Eso sí: las mujeres no podían actuar en la Antigua Grecia, todos los papeles, incluso los femeninos, eran realizados por hombres.</li>
+</ul>
+<h3 id="estructura-de-la-tragedia">Estructura de la tragedia</h3>
+<ul>
+<li>Prólogo: el inicio de cualquier tragedia se realizaba con un prólogo que contenía un monólogo o un sencillo diálogo y que presentaba el tema de la tragedia.</li>
+<li>Paródos: a continuación, entraba el coro y realizaba lo que se conoce como &quot;el canto de entrada&quot;, es decir, la primera canción de este personaje.</li>
+<li>Episodios: son como los actuales actos teatrales y, normalmente, una obra se dividía entre 3 y 5 episodios.</li>
+<li>Estásimo: después de cada episodio tiene lugar este elemento trágico en el que el coro comenta o reacciona ante los sucesos que han tenido lugar sobre el escenario.</li>
+<li>Éxodo: es el final de la obra y tiene lugar al final del último episodio. Se trata de la última canción del coro y con la que este personaje sale del escenario.</li>
+</ul>
+<h3 id="valores-1">Valores</h3>
+<ul>
+<li>Exaltación de la grandeza  individual.</li>
+<li>Realismo e idealismo moral.</li>
+<li>Exaltacion de la moral.</li>
+<li>Exaltacion de la religion.</li>
+</ul>
+<h3 id="obras-representativas">Obras representativas</h3>
+<h4 id="esquilo-ca-525---ca-455-a-c">Esquilo (ca. 525 - ca. 455 a. C.)</h4>
+<ul>
+<li>Los persas.</li>
+<li>Las suplicantes.</li>
+<li>Los siete contra Tebas.</li>
+<li>La trilogía Orestíada: Agamenón; Las coéforas y Las euménides.</li>
+<li>Prometeo encadenado.</li>
+</ul>
+<h4 id="sófocles-496---406-a-c">Sófocles (496 - 406 a. C.)</h4>
+<ul>
+<li>Antígona.</li>
+<li>Edipo Rey.</li>
+<li>Electra.</li>
+<li>Edipo en Colono.</li>
+<li>Áyax.</li>
+<li>Las traquinias.</li>
+<li>Filoctetes.</li>
+</ul>
+<h4 id="eurípides-ca-484---406-a-c">Eurípides (ca. 484 - 406 a. C.)</h4>
+<ul>
+<li>Medea.</li>
+<li>Las Troyanas.</li>
+<li>Andrómaca.</li>
+<li>Orestes.</li>
+<li>Las Bacantes.</li>
+</ul>
 <h2 id="43-la-épica-medieval-características-valores-y-obras-representativas">4.3. La épica medieval: características, valores y obras representativas<sup class="footnote-ref"><a href="#fn62" id="fnref62">[62]</a></sup></h2>
+<p>los cantares de gesta contaban las hazañas legendarias del héroe de un pueblo, quien es puesto como modelo o arquetipo de conducta. los juglares cantaban las narraiones; luego, circularon algunas versiones escritas.</p>
+<h3 id="caracteristicas-1">Caracteristicas</h3>
+<ul>
+<li>Un héroe que ha de conseguir un ideal y se ve obstaculizado en su viaje.</li>
+<li>Tal ideal es un ejemplo moral para una comunidad.</li>
+<li>El héroe tiene contactos con la divinidad, de modo que su gesta puede devenir empresa providencial.</li>
+<li>El mundo es el de la guerra, sin cabida para lo cortesano.</li>
+<li>Tono elevado y sublime.</li>
+</ul>
+<h3 id="valores-2">Valores</h3>
+<ul>
+<li>Lealtad</li>
+<li>Heroismo</li>
+<li>Valentia</li>
+<li>honor</li>
+</ul>
+<h3 id="obras-representativas-1">Obras representativas</h3>
+<ul>
+<li>El Beowulf.</li>
+<li>El Canto de Igor.</li>
+<li>La Canción de Roldán.</li>
+<li>El Mio Cid.</li>
+</ul>
 <h2 id="44-la-poesía-mística-características-y-representantes">4.4. La poesía mística: características y representantes<sup class="footnote-ref"><a href="#fn63" id="fnref63">[63]</a></sup></h2>
+<p>Durante el Renacimiento, surge en España una corriente de renovación religiosa que busca alcanzar una espiritualidad más íntima y sincera. Esta búsqueda se manifiesta en dos tendencias que se ven reflejadas en la literatura:</p>
+<ul>
+<li>La ascética es un camino que el alma debe seguir mediante la oración y el sacrificio para lograr su perfeccionamiento y percibir a dios.</li>
+<li>La mística es un estado de perfección en el que el alma, purificada, se une con dios. En poesía su representante es san juan de la cruz y en prosa, santa teresa de jesús.</li>
+</ul>
+<h3 id="caracteristicas-2">Caracteristicas</h3>
+<ul>
+<li>La característica más acusada de la mística española es su carácter ecléctico, armonizador entre tendencias extremas.</li>
+<li>Tiene un único tema que es la búsqueda de Dios, que se identifica con el amor.</li>
+<li>Se utiliza versos y estrofas italinizantes sobre todo la lira aunque a veces recurre al octosílabo.</li>
+<li>Sencillo y huyendo de toda artificiosidad.</li>
+<li>Metáforas y las figuras retóricas del mismo modo son simples.</li>
+</ul>
+<h3 id="representantes">Representantes</h3>
+<h4 id="santa-teresa">Santa Teresa</h4>
+<p>Las obras místicas de carácter didáctico más importantes de cuantas escribió la santa se titulan: Camino de perfección (1562-1564); Conceptos del amor de Dios y Castillo interior o Las moradas. Además de estas tres, pertenecen a dicho género las tituladas: Vida de Santa Teresa de Jesús (1562-1565) escrita por ella misma y cuyos originales se encuentran el la biblioteca del Monasterio de El Escorial; Libro de las relaciones; Libro de las fundaciones (1573-1582); Libro de las constituciones (1563) Muchas de estas obras han sido traducidas a casi todos los idiomas.</p>
+<h4 id="juan-de-la-cruz">Juan de la cruz</h4>
+<p>Su obra poética está compuesta por tres poemas considerados mayores: Noche oscura, Cántico espiritual y Llama de amor viva; y un conjunto de poemas habitualmente calificados como menores: cinco glosas, diez romances (nueve de ellos pueden contarse como una sola composición) y dos cantares. La difusión de su obra fue manuscrita, y aún no se han dilucidado todos los problemas textuales que conllevan. En prosa escribió cuatro comentarios a sus poemas mayores: Subida del Monte Carmelo y Noche oscura para el primero de estos poemas, y otros tratados homónimos sobre el Cántico espiritual y Llama de amor viva.</p>
 <h2 id="45-la-novela-picaresca-características-y-obras-representativas">4.5. La novela picaresca: características y obras representativas<sup class="footnote-ref"><a href="#fn64" id="fnref64">[64]</a></sup></h2>
+<p>Durante el Siglo de Oro español apareció un subgénero narrativo que fue totalmente contrario a la estética de la época. Hablamos de la novela picaresca, un tipo de texto literario que surgió como rechazo al idealismo renacentista y con el objetivo de criticar la sociedad española de la época. Con &quot;Lazarillo de Tormes&quot; asistimos a la primera gran expresión de este subgénero narrativo que tuvo un gran éxito durante el XVI y el XVII tanto en España como en Europa.</p>
+<h3 id="características-1">Características</h3>
+<ul>
+<li>El personaje del pícaro como protagonista: Evidentemente, una de las características principales de este tipo de novela es que está protagonizada por un personaje muy definido: el pícaro. Este personaje suele ser una persona que proviene de una clase baja o que vive marginado de la sociedad.</li>
+<li>Parodia del Renacimiento: Otra de las características de la novela picaresca más habituales es que los autores escribieran este subgénero narrativo para ofrecer una versión satírica de la novela idealista del Renacimiento.</li>
+<li>Falsa autobiografía: Normalmente, las novelas picarescas están estructuradas como si de una falsa autobiografía se trataran. Y, para ello, se usan recursos como, por ejemplo, narrar los hechos en la primera persona del singular o con un tono de arrepentimiento que logra que empaticemos con su situación.</li>
+<li>Presencia del determinismo social: En la gran mayoría de novelas de este subgénero, el antihéroe está supeditado a un determinismo social que no le permite avanzar ni mejorar en su vida.</li>
+<li>Novela moralizante: El hecho de que el protagonista nunca pueda mejorar en su vida tiene una intención moralizante: y es que el autor pretendía ofrecer un gran &quot;ejemplo&quot; de las malas conductas humanas a las que muchas personas de la ciudad pueden verse obligadas a cometer.</li>
+<li>Tono satírico: Otra de las grandes características de la novela picaresca es que estos textos están escritos con un tono satírico y con una gran presencia del humor. Mediante esta voz humorística se consigue lanzar una voraz crítica a la sociedad de la época y, también, a la gran hipocresía que hay en todas las capas y los estamentos. Por eso, entre los autores que cultivan este género, hay un gran uso de la ironía</li>
+<li>Lenguaje coloquial e informal: Debido a que el protagonista de las novelas suele ser una persona de condición social baja y marginada, estas obras suelen estar escritas con un lenguaje muy coloquial. Recordemos que, como ya hemos dicho, estas novelas suelen estar presentadas en primera persona, emulando una autobiografía, por tanto, para poder reflejar la condición social del personaje, se usa un lenguaje adaptado a su realidad.</li>
+</ul>
+<h2 id="obras-representativas-2">Obras representativas</h2>
+<ul>
+<li>Vida del Lazarillo de Tormes y de sus fortunas y adversidades.</li>
+<li>Mateo Alemán, Guzmán de Alfarache.</li>
+<li>Juan Martí, Segunda parte del Guzmán de Alfarache.</li>
+<li>Francisco de Quevedo, La vida del Buscón.</li>
+<li>Juan Cortés de Tolosa, Lazarillo de Manzanares.</li>
+<li>Juan de Luna, Segunda parte del Lazarillo de Tormes.</li>
+</ul>
+<h2 id="la-novela-picaresca-en-europa">La novela picaresca en Europa</h2>
+<ul>
+<li>Inglaterra: Vida de Jack Wilton de Thomas Nashe, Fortunas y adversidades de la famosa Moll Flanders de Daniel Defoe, La historia de Tom Jones de Henry Fielding.</li>
+<li>Francia: La novela cómica de Paul Scarron.</li>
+<li>Holanda: El español de Brabante de Gerbrand Adriaensz Bredero.</li>
+<li>Alemania: Historia verdadera de Isaac Winkelfelder y Jobst von der Schneid de Nikolaus Ulenhart, El aventurero Simplicíssimus de Hans Jakob Christoph von Grimmelshausen.</li>
+</ul>
 <h2 id="46-ei-barroco-español-culteranismo-y-conceptismo-características-y-representantes">4.6. EI Barroco español, culteranismo y conceptismo. Características y representantes<sup class="footnote-ref"><a href="#fn65" id="fnref65">[65]</a></sup></h2>
+<p>Originalmente, la palabra barroco tenía un sentido despectivo y aludía al aml gusto y la proporción desmesurada. Sin embargo, se utilizó para nombrar un estilo artístico del siglo XVII gracias a esa cualidad de exageración y de contraste.</p>
+<h3 id="culteranismo">Culteranismo</h3>
+<p>Busca la belleza formal mediante el uso de cultismos y ña creación de un lenguaje artificioso. Su principal representante es Luis de Góngora.</p>
+<h3 id="conceptismo">Conceptismo</h3>
+<p>Se basa en el ingenio: son frecuentes la ironía, la paradoja, la caricatura, el doble sentido, el uso de la frase corta, elritmo rápido, la abundancia de antítesis y contrastes, el uso de la hipérbole, la invención de nuevos términos e ingeniosos juegos de conceptos y palabras. Su representante es Francisco de Quenvedo y Villegas.</p>
+<h3 id="características-2">Características</h3>
+<ul>
+<li>Búsqueda de lo nuevo y lo extraordinario.</li>
+<li>La transgresión a las normas clásicas.</li>
+<li>El gusto por lo desmesurado (Excesiva, mayor de lo común.)</li>
+<li>El uso de contrastes y figuras literarias retorcidas.</li>
+<li>La distintas concepción de la lengua literaria da lugar a dos corrientes.</li>
+</ul>
+<h3 id="representantes-1">Representantes</h3>
+<h4 id="lope-de-vega-1562--1635">Lope de vega (1562 – 1635)</h4>
+<ul>
+<li>Fuenteovejuna.</li>
+<li>La dama boba.</li>
+<li>Obras líricas.</li>
+</ul>
+<h4 id="miguel-de-cervantes-1547--1616">Miguel de Cervantes (1547 – 1616)</h4>
+<ul>
+<li>Don Quijote de la Mancha.</li>
+<li>Novela Ejemplares.</li>
+<li>La Galatea.</li>
+<li>La Gitanilla.</li>
+</ul>
+<h4 id="francisco-de-quevedo-1580--1645">Francisco de Quevedo (1580 – 1645)</h4>
+<ul>
+<li>La antología Primera parte de las flores de poetas ilustres de España.</li>
+<li>El Parnaso español.</li>
+<li>Las Tres Musas Últimas Castellanas.</li>
+</ul>
+<h4 id="luis-de-góngora-y-argote-1561--1627">Luis de Góngora y Argote (1561 – 1627)</h4>
+<ul>
+<li>El Polifemo.</li>
+<li>Las Soledades.</li>
+<li>Romance.</li>
+</ul>
+<h4 id="pedro-calderon-de-la-barca-1547--1616">Pedro Calderon de la Barca (1547 – 1616)</h4>
+<ul>
+<li>La vida es sueño.</li>
+<li>El Alcalde de Zalamea.</li>
+<li>El Gran Teatro del Mundo.</li>
+<li>La Dama Duende</li>
+</ul>
+<h3 id="francisco-de-quevedo-y-villegas">Francisco de Quevedo y Villegas</h3>
+<ul>
+<li>Sueños y discursos.</li>
+<li>El chitón de las tarabillas.</li>
+</ul>
+<h3 id="luis-de-góngora">Luis de Góngora</h3>
+<ul>
+<li>La fábula de Polifermo y Galetea,</li>
+<li>Las soledades.</li>
+</ul>
 <h2 id="47-shakespeare-y-las-pasiones-humanas-obras-representativas">4.7. Shakespeare y las pasiones humanas. Obras representativas<sup class="footnote-ref"><a href="#fn66" id="fnref66">[66]</a></sup></h2>
+<h3 id="shakespeare">Shakespeare</h3>
+<p>Shakespeare era parte de la burguesía naciente, que veía el mundo con un mentalidad bastente liberal y humanista; sin embargo, ciertas actitudes del pueblo no parecían agradarle. A pesar de su época y lo reflejó en sus obras. Mostró la corrupción tanto en los goberantes como en las clases populares, y la decadencia moral que el Estado no era capaz de contener.</p>
+<h3 id="las-pasiones-humanas">Las pasiones humanas</h3>
+<p>El teatro europeo había retomado las ideas clásicas de que las acciones de los personajes de una obra teatral perseguían lograr un objetivo. A diferencia  de la Europa católica, los ingleses se setían con mayor libertad para explorar los motores internos de los actos humanos, los conflictos de conciencia y los impulsos subjetivos que llevan a tomar decisiones. Por ello, cada obra de Shakespeare implica un abordaje de una determinada gama de pasiones.</p>
+<h3 id="obras">Obras</h3>
+<h4 id="tragedia">Tragedia</h4>
+<ul>
+<li>Romeo y Julieta.</li>
+<li>Hamlet.</li>
+<li>El rey Lear.</li>
+<li>Otelo y Macbeth.</li>
+</ul>
+<h4 id="comedias">Comedias</h4>
+<ul>
+<li>Sueño de una noche de verano.</li>
+<li>Los dos caballeros de Verona.</li>
+<li>Trabajos de amor perdidos.</li>
+</ul>
+<h4 id="dramas-históricos">Dramas históricos</h4>
+<ul>
+<li>Ricardo III.</li>
+<li>Enrique V.</li>
+<li>El rey juan.</li>
+</ul>
+<h4 id="tragicomedias-de-conflicto">Tragicomedias de conflicto</h4>
+<ul>
+<li>El mercader de Venencia.</li>
+<li>Bien esta lo que bien acaba.</li>
+<li>El cuento de invierno.</li>
+</ul>
 <h2 id="48-miguel-de-cervantes-y-el-quijote-características-de-la-cultura-y-sociedad-española-de-la-época">4.8. Miguel de Cervantes y EL Quijote. Características de la cultura y sociedad española de la época<sup class="footnote-ref"><a href="#fn67" id="fnref67">[67]</a></sup></h2>
+<h2 id="cultura">Cultura</h2>
+<ul>
+<li>Se debia de tener permiso de la corona para poder publicar una obra, tambien se debia de ser autorizado por la iglesia católica.</li>
+<li>Se garantiza por medio de la corona y la iglesia católica no atentara contra la doctrina.</li>
+</ul>
 <h2 id="49-identificación-de-ideas-principales-y-secundarias-tema-propósito-y-mensaje-en-diferentes-tipos-de-textos">4.9. Identificación de ideas principales y secundarias; tema, propósito y mensaje, en diferentes tipos de textos<sup class="footnote-ref"><a href="#fn68" id="fnref68">[68]</a></sup></h2>
+<h3 id="ideas-pincipales-y-secundarias">Ideas pincipales y secundarias</h3>
+<p>Las ideas principales son ideas que expresan una información básica para el desarrollo del tema que se trata. Las ideas secundarias expresan detalles o aspectos derivados del tema principal. A menudo, estas ideas sirven para ampliar, demostrar o ejemplificar una idea principal.</p>
+<h3 id="tema">Tema</h3>
+<p>Describe el asunto tratado en el texto de una manera superficial; es decir, es el nombre general del texto.</p>
+<h3 id="propósito-y-mensaje">Propósito y mensaje</h3>
+<ul>
+<li>Las ideas principales y secundarias de un texto son los mensajes, jerárquicamente codificados, que contiene un escrito. Estas ideas tienen por objetivo transmitir una información; vienen a significar cada una de las premisas que sustentan las microestructuras y macroestructuras de un discurso textual.</li>
+<li>Al ser aplicadas concreta y enfáticamente en un texto, las ideas principales y secundarias denotan un dominio pleno del idioma por parte del emisor lírico. Su uso correcto garantiza que el fin mismo del acto de la escritura, la comunicación, se alcance con mayor facilidad.</li>
+</ul>
+<h3 id="diferentes-tipos-de-textos">diferentes tipos de textos</h3>
 <h2 id="410-identificación-de-figuras-literarias-metáfora-prosopopeya-hipérbole-aliteración-símil-y-anáfora">4.10. identificación de figuras literarias: metáfora, prosopopeya, hipérbole, aliteración, símil y anáfora<sup class="footnote-ref"><a href="#fn69" id="fnref69">[69]</a></sup></h2>
+<h3 id="metáfora">Metáfora:</h3>
+<p>La metafora es una figura de significación o tropo que consiste en trasadar el significado de un término real (TR) por un término imaginario (TI) con el que guarda alguna semejanza. Puede haber de varios tipos:</p>
+<h4 id="metafora-pura">Metafora pura:</h4>
+<p>Solo se expresa el término imaginario; el real se deduce del contexto.
+Ejemplo: Su sonrisa de perlas. (perlas, término imaginario en reemplazo de dientes, el término real)</p>
+<h4 id="metafora-impura">Metafora impura:</h4>
+<p>Se expresan tanto el término imaginario comoel real. Ejemplo: Ella estaba triste, y de sus ojos brotaban lágrimas de cristal.</p>
+<h4 id="metáfora-de-segundo-grado">Metáfora de segundo grado:</h4>
+<p>Supone una metáfora anterior. El término real es, a su vez, el termino imaginario de otra metáfora.</p>
+<blockquote>
+<p>Caballito negro. <br>
+¿Dónde llevas tu jinete muerto?</p>
+</blockquote>
+<blockquote>
+<br>
+</blockquote>
+<blockquote>
+<p>La noche espolea</p>
+<p>sus negro ijares</p>
+<p>clavándole estrellas.</p>
+</blockquote>
+<h4 id="metáfora-impresionista-o-descriptiva">Metáfora impresionista o descriptiva:</h4>
+<p>Cuenta con varios términos imaginario yuxtapuestos. Ejemplo: La Metáfora impresionista o descriptiva tiene la estructura R, I, I, I, I...; Tus dientes (R), marfil (I), blancura (I), destellos de sol (I)...</p>
+<h3 id="prosopopeya">Prosopopeya</h3>
+<p>La prosopopeya o personificación es una figura literaria que consiste en atribuir cualidades o habilidades humanas (como el pensamiento, el razonamiento o el habla) a las cosas inanimadas. Por ejemplo: El viento susurraba sin descanso.</p>
+<h3 id="hipérbole">Hipérbole</h3>
+<p>Exageración magnificadora o degradante. Ejemplo: Te dije mil veces que laves los platos después de comer.</p>
+<h3 id="alitaración">Alitaración</h3>
+<p>La aliteración es un recurso literario que tiene como característica la repetición sucesiva de un determinado sonido con el objetivo de producir cierto efecto. Por ejemplo: La dama no ama al amo.</p>
+<h3 id="símil">Símil</h3>
+<p>El símil, también llamado comparación, es una figura retórica que sirve como medio para establecer una relación entre un elemento real y otro imaginario o figurado. Por ejemplo: Era fría como un témpano.</p>
+<h3 id="anáfora">Anáfora</h3>
+<p>La anáfora es un elemento del discurso que se utiliza en referencia de algo que ya se dijo. Por ejemplo: La directora dijo que la llames. El pronombre “la” está refiriendo a algo que ya se dijo (“la directora”).</p>
 <h2 id="411-contenido-y-estructura-de-la-poesía-métrica-rima-y-licencias-poéticas">4.11. Contenido y estructura de la poesía: métrica, rima y licencias poéticas<sup class="footnote-ref"><a href="#fn70" id="fnref70">[70]</a></sup></h2>
-<h2 id="412-elementos-del-proceso-de-la-comunicación">4.12. Elementos del proceso de la comunicación<sup class="footnote-ref"><a href="#fn71" id="fnref71">[71]</a></sup></h2>
+<p>La poesía es el género literario cuyo fin es la expresión artística de la belleza,
+mediante el uso de la palabra. Es un arte literario que se escribe en verso
+condiferentes rimas y cuyo contenido alude a los sentimientos de quien lo escribe.</p>
+<h3 id="estructura">Estructura</h3>
+<p>La métrica: es el conjunto de regularidades formales y sistemáticas que caracterizan la poesía versificada. Dicho de otra forma, lo que hace que un verso sea un verso (a diferencia de la prosa) puede ser considerado de métrica. Cuando se trata de prosa, se trata de prosa rítmica. El estudio métrico comprende tres partes fundamentales: el verso, la estrofa y el poema. La métrica también es la cantidad de sílabas en las que se divide un verso.</p>
+<p>Rima: Hay dos tipos de rima en la poesía española, la asonancia y la consonancia. En los dos casos, la rima se basa en el final del verso poético desde la última vocal acentuada. En la rima asonante, sólo se riman las vocales, así que &quot;casa&quot; y &quot;drama&quot; se riman porque las dos palabras terminan en a – a. Cuando se describe la rima asonante, normalmente se denotan sólo las vocales: a – a, e – i, etc. A veces no se riman todos los versos; por ejemplo en el romance se riman sólo se riman (en asonancia) los versos pares. En la rima consontante, todos los sonidos, vocales y consonantes, se riman: &quot;casa&quot; y &quot;basa.&quot; Cuando se describe la rima consonante, se usa un sistema de letras para simbolizar todos los sonidos que se riman</p>
+<p>Las licencias poéticas: son los recursos que tiene el poeta para ajustar sus versos a una medida y a una rima determinadas. Esta licencias son importantes para el escritor porque permite otorgale rasgos en cuanto a la forma de su creación, dándole características estilísticas propias del autor y con ello darle la belleza que puede llegar a poseer el texto poético.</p>
+<h3 id="412-elementos-del-proceso-de-la-comunicación">4.12. Elementos del proceso de la comunicación<sup class="footnote-ref"><a href="#fn71" id="fnref71">[71]</a></sup></h3>
+<p>Emisor: Persona que produce un mensaje en un momento dado. No se refiere a un mero codificador o un transmisor mecánico de infromación, sino a un sujeto real con ideas, creencias, actitudes, prejuicios, etc.</p>
+<p>Destinatario: Persona al que el receptor dirige su enunciado. Este término se refiere aun sujeto en una situación comunicativa, y no a mecanismos de codificación. No se considera como tal a alguien que capta por casualidad una conversación.</p>
+<ul>
+<li>Enunciado: Es la expresión linguística que produce el emisor. Puede ser una simple interjección (¡Cuidado!), como una oracion o un párrafo. No tiene límites gramaticales.</li>
+<li>Entorno o contexto: Es la situación espacial-temporal que imponen el aquí y el ahora de la comunicación, incluye la cultura, las circunstancias históricas, y todo los hechos o circunstancias que afectan al emisor o al destinatario.</li>
+</ul>
 <h2 id="413-funciones-del-lenguaje">4.13. Funciones del lenguaje<sup class="footnote-ref"><a href="#fn72" id="fnref72">[72]</a></sup></h2>
+<p>El lenguaje se usa con distintos propósitos o intenciones. Cada uno de estos se concreta en las funciones del lenguaje. En un enunciado pueden aparecer varias funciones comunicativas, pero una de ellas es la predoniminante.</p>
+<h3 id="representativa">Representativa</h3>
+<p>En general, el lenguaje se usa para presentar objetos. Cuando en una conversación se dice que Kenny está en su casa, la palabra Kenny representa a una persona sin que ella esté presente; lo mismo sucede con la palabra casa. Las palabras son símbolos que están en lugar de los objetos.</p>
+<h3 id="imaginativa">Imaginativa</h3>
+<p>Su intención es transmitir una realidad inventada. A diferencia de la referencial realidad a la que hace alusión no existe independiente del emisor. Ejemplo: En un lejano bosque, habitaba un dragon llamado Flamir. predomina en extos literarios y míticos, como novelas, cuentos y leyendas.</p>
+<h3 id="metalinguística">Metalinguística</h3>
+<p>Implica usar el lenguaje para referirse al lenguaje mismo. Ejemplo: (Ganado) es una palabram aguda que no va tildada. Los diccionarios y las gramáicas son textos predominantemente metalinguísticos, pues tratan sobre el lenguaje y su uso.</p>
+<h3 id="fática-o-de-contacto">Fática o de contacto</h3>
+<p>El requisito básico para la comunicación es el contacto entre un emisor y un destinatario del mensaje. La función fática se da cuando la finalidad del enunciado es iniciar, mantener o terminar esa relación. Se hace evidente en frases como: ¡Hola! ¡Que pacer saludarte! ¡Aló! ¿Me oyes? No te escucho. ¡Hasta pronto! ¿Me entienden?, Jóvenes.</p>
+<h2 id="apelativa-o-conativa">Apelativa o conativa</h2>
+<p>El lenguaje con función apelativa o conativa se caracterisza por su propósito de modificar el comportamiento del receptor. Es decir, por intentar conseguir que el destinatario del mensaje se comporte de una determinada manera.</p>
+<h3 id="expresiva-o-emotiva">Expresiva o emotiva</h3>
+<p>El lenguaje cumple con estas función cuando se utiliza para expresar emociones, es decir, cuando sirve para manisfestar el estado de ánimo del hablante. Si bien la expresividad constituye un componente casi constante del habla, esa puede también comunicarse por medios escritos. En el primer  caso es más espontánea que en elk segundo. Las palabras funcionan más que como signos, como síntomas de su estado de ánimo. Ejemplos: Me encanta tu forma de vestir. Destesto cuando el tiempo está así. No obstante, puede formar parte de textos Líricos, Dramáticos, cartas, correos y mensajería instantánea.</p>
+<h3 id="poética-o-estética">Poética o estética</h3>
+<p>Se centra en el mensaje. Pore una parte, consiste el desplazar el significado propio de una palabra para sustituirlo por uno nuevo. Por ejemplo, en la frases Mi viaje se convirtío en 20 días de cardo, la palabra cardo pasa de significar una planta con hojas grandes y espinosas a referirse sufrimiento.</p>
 <h2 id="414-estructura-de-la-oración-simple">4.14. Estructura de la oración simple<sup class="footnote-ref"><a href="#fn73" id="fnref73">[73]</a></sup></h2>
+<p><img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\Estructura%20de%20la%20oraci%C3%B3n%20simple.jpg" alt=""></p>
 <h2 id="415-sujeto-núcleo-y-adyacentes">4.15. Sujeto: núcleo y adyacentes<sup class="footnote-ref"><a href="#fn74" id="fnref74">[74]</a></sup></h2>
+<p><img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\Sujeto%20n%C3%BAcleo%20y%20adyacentes.jpg" alt="">
+<img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\Sujeto%20n%C3%BAcleo%20y%20adyacentes2.jpg" alt=""></p>
 <h2 id="416-predicado-nominal-cópula-atributo">4.16. Predicado nominal: cópula, atributo<sup class="footnote-ref"><a href="#fn75" id="fnref75">[75]</a></sup></h2>
+<p><img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\" alt=""></p>
 <h2 id="417-predicado-verbal-núcleo-y-complementos">4.17. Predicado verbal: núcleo y complementos<sup class="footnote-ref"><a href="#fn76" id="fnref76">[76]</a></sup></h2>
+<p><img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\Predicado%20verbal%20n%C3%BAcleo%20y%20complementos.jpg" alt=""></p>
 <h2 id="418-la-oración-compuesta-coordinación-y-subordinación">4.18. La oración compuesta: coordinación y subordinación<sup class="footnote-ref"><a href="#fn77" id="fnref77">[77]</a></sup></h2>
+<p><img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\La%20oraci%C3%B3n%20compuesta%20subordinada.%20Clases.jpg" alt=""></p>
 <h2 id="419-la-oración-compuesta-coordinada-clases">4.19. La oración compuesta coordinada. Clases<sup class="footnote-ref"><a href="#fn78" id="fnref78">[78]</a></sup></h2>
+<p><img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\La%20oraci%C3%B3n%20compuesta%20coordinada.%20Clases.jpg" alt=""></p>
 <h2 id="420-la-oración-compuesta-subordinada-clases">4.20. La oración compuesta subordinada. Clases<sup class="footnote-ref"><a href="#fn79" id="fnref79">[79]</a></sup></h2>
+<p><img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\La%20oraci%C3%B3n%20compuesta%20subordinada.%20Clases.png" alt=""></p>
 <h2 id="421-estructura-y-funciones-de-las-proposiciones-subordinadas">4.21. Estructura y funciones de las proposiciones subordinadas<sup class="footnote-ref"><a href="#fn80" id="fnref80">[80]</a></sup></h2>
+<p><img src="file:///c:\Users\arthur\Desktop\Hw\Avanzo\img\len\Estructura%20y%20funciones%20de%20las%20proposiciones%20subordinadas.jpg" alt=""></p>
 <h2 id="422-estructura-y-contenido-de-la-noticia">4.22. Estructura y contenido de la noticia<sup class="footnote-ref"><a href="#fn81" id="fnref81">[81]</a></sup></h2>
+<p>Las noticias que se presentan en los periódicos, como los que has consultado, ofrecen un esquema (partes de la noticia) para que sus lectores puedan identificar fácilmente de qué se trata y encontrar la información que donde se responde a las preguntas:¿qué?, ¿quién?, ¿cuándo?, ¿dónde?, ¿por qué? y ¿cómo? Para ello se estructuran de la siguiente forma:</p>
+<ol>
+<li>Titular. Presenta o anuncia el contenido de la noticia. Se identifica de inmediato porque se escribe con letras más grandes y, generalmente, con negritas.</li>
+<li>La entrada. Resume la noticia en un párrafo breve en el que se da a conocer lo más sobresaliente de la nota. En algunas ocasiones este párrafo aparece en letra cursiva.</li>
+<li>El cuerpo. Es el desarrollo de la noticia, en él se proporciona la información y se incluyen algunos temas relacionados con la misma o con diferentes puntos de vista de las personas involucradas.</li>
+<li>El final o remate. Presenta información relacionada que permite concluirla nota</li>
+</ol>
+<p>La noticia llega a los lectores después de un proceso que se inicia con el reportero o periodista que cubre la nota, quien envía la información a la redacción del periódico, en donde es editada. En esta segunda fase del proceso, el editor decide, conforme a los criterios y políticas establecidas por el medio que las publica:</p>
+<ul>
+<li>Si se incluye toda la información que proporcionó el reportero o se deja fuera alguna parte.</li>
+<li>La sección del periódico en que será incluida, de acuerdo con la importancia de la noticia y el tipo de información que presenta.</li>
+</ul>
 <h2 id="423-estructura-y-contenido-de-anuncios-publicitarios">4.23. Estructura y contenido de anuncios publicitarios<sup class="footnote-ref"><a href="#fn82" id="fnref82">[82]</a></sup></h2>
+<p>La finalidad de los textos publicitarios es convencer, provocar necesidades o inducir a la compre de ciertos artículos o servicios. Intentan obtener una respuesta del receptor; por tanto, las funciones apelativa y fática son esenciales en la publicidad.</p>
+<ul>
+<li>Empleo del lenguaje apelativo: Tanto los textos como las imágenes deben estar dirigidos al receptor del mensaje como una invitación</li>
+<li>Simplicidad y brevedad: El mensaje publicitario debe ser fácil de comprender por el común de las personas.</li>
+<li>Originalidad: Mientras más original sea el mensaje, mayor será la atracción que generará al públivo.</li>
+<li>Capacidad de sugerencia: Aparte de presentar las ventajas de un producto o servicio, el mensaje publicitario debe ser capaz de sugerir al receptor determinandos valores, tales como éxito, salud, juventud, alegría, amor, etc.</li>
+<li>Eslogan: Es una frase breve fácil de recordar, que exalta las bondades del producto. Tiene por objetivo proporcionar continuidad a la campaña por medio de su anclaje en la memoria del receptor.</li>
+<li>Capacidad persuasiva: Debe contrinuir al objetivo del mensaje y provocar una reacción favorable hacia aquello de lo que habla.</li>
+<li>Sin posibilidad de réplica: Nunca debe suscitar la contra argumentación, mucho menos irritar al público.</li>
+</ul>
 <h2 id="424-uso-de-signos-de-puntuación">4.24. Uso de signos de puntuación<sup class="footnote-ref"><a href="#fn83" id="fnref83">[83]</a></sup></h2>
+<table>
+<thead>
+<tr>
+<th>Signo</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Punto</td>
+<td>- El punto y seguido finaliza una idea dentro del párrafo. <br>- El punto y aparte finaliza el párrafo dentro del texto. <br>- El punto final cierra la redacción de un texto.</td>
+</tr>
+<tr>
+<td>Coma</td>
+<td>- Separa dos o más palabras de una enumeración. Ejemplo: Acudió toda la familia: abuelos, padres, hijos, cuñados, etc.<br> - Separa un complemento que se antepone al sujeto. Ejemplo: Por la noche, los niños duermen.-Aisla una oración explicativa que se intercala en una frase. Ejemplo: Ella es, entre todas las que llegaron, la más linda. <br> - Sustituye un verbo (elipsis verbal): A pedro le gusta el jamón; a juan, el tocino. Se ha sustituido el verbo gusta en la segunda oración.</td>
+</tr>
+<tr>
+<td>Punto y coma</td>
+<td>- Separa elementos en una oración en caso de que al menos uno de ellos lleve coma, Ejemplo: Norberto traerá la lechuga; Sofía, los tomates; Kenia, los rábanos, y Francisco, los pepinos. <br> - Antes de las conjunciones y locuciones conjuntivas adversativas (pero, aunque, mas, sin embargo, no obstante), concesiva (aunque, por más que, aun cuando, si bien) y consecutivas (por conseguiente, luego, así que), si las frases son muy largas. Ejemplos: El tiempo ha estado a nuestro favor; no obstante, aún faltan muchos detalles por arreglar en el mural. Ayer fueron a comprar las pinturas; por conseguiente, tenemos material para trabajar toda la noche.</td>
+</tr>
+<tr>
+<td>Dos puntos</td>
+<td>- Antes de enumeración introducida por una palabra que engloba a todos los elementos. Ejemplo: Me gustas todos los cítricos: naranjas, limones, toronjas. <br> - Para introducir una cita textual. Ejemplo: El filósofo avicena dijo: (En medicina debemos saber las causas de la salud y la enfermedad).</td>
+</tr>
+<tr>
+<td>Guion</td>
+<td>- Indica un intervalo. Ejemplos: Páginas 23-29, siglos XI-XII. <br> - En las palabras compuestas que denotan contraposición. Ejemplos: Lección teórico-Práctica. -Las negociaciones jordano-sirias.<br> - También une nombre propios o conceptos opuestos. Ejemplos: Frontera Nicaragua- Honduras, la relación coste-beneficio. <br> - Une un prefijo con una palabra que inicia con mayúscula, una sigla o un número. Ejemplos: anti-hitler, sub-21, pro-OTAN.</td>
+</tr>
+<tr>
+<td>Paréntesis</td>
+<td>- Cuando interrumpe para insertar una información complementaria o aclaratoria. Ejemplo: La reunión (que no pasó de las ocho) estuvo agitada. <br> - También para intercalar datos. Ejemplo: El año en que nació (1066) los normandos desembarcaron en Hastings (Gran Bretaña). <br> - Para introducir opciones en e texto. Ejemplo: Allí se indicará(n) el(los) día(s) de entreno. <br> - En las acotaciones de obras teatrales. Ejemplo: REY. (de pie, enérgico) ¡Es hora de atacar!</td>
+</tr>
+</tbody>
+</table>
 <h2 id="425-tildación-de-palabras">4.25. Tildación de palabras<sup class="footnote-ref"><a href="#fn84" id="fnref84">[84]</a></sup></h2>
+<h3 id="palabras-compuesta">Palabras compuesta</h3>
+<p>Resultan de la unión entre dos lexemas, es decir, dos palabras simples:</p>
+<ul>
+<li>Si las palabras simples van unidas indirectamente a través de un guion corto, ambas palabras conservan su tilde si originalmente la llevaren. Ejemplos: histórico-crítico.</li>
+<li>Si las palabras simples van unidas indirectamente, conserva la tilde la segunda palabra si originalmente la llevare. Ejemplo: gato + león = gatoleón; física + química = físicoquímico.</li>
+</ul>
+<h3 id="palabras-derivadas-con-el-sufijo--mente">Palabras derivadas con el sufijo <em>-mente</em></h3>
+<p>Los adverbios de modo terminados con el morfema-mente conservan la tilde si la llevare el adjetivo del cual procede. Ejemplos: del adjetivos verdadero (que no lleva tilde) se deriva el adverbio verdaderamente. En cambio, del adjetivo célebre (que sí lleva tilde) procede el adverbio celebremente.</p>
+<h3 id="verbos-con-pronombres-átonos">Verbos con pronombres átonos</h3>
+<p>Los compuestos verbales llevan tilde de acuerdo a las normas de acentuación: cayose (grave terminada en vocal), dámelo (esdrújula).</p>
+<h3 id="extranjerismos">Extranjerismos</h3>
+<p>Son palabras de otro idioma adaptadas al español. Si la palabra extranjera incluye latinismos, se adapta a las normas del español, sin utilizar crusivas, y se le apican las reglas correspodientes. Ejemplos: Juego foot ball /juegos fútbol. me gusta el ballet / me gusta el balé, Hubo quorum /Hubo quórum.-</p>
 <h2 id="426-sinónimos-y-antónimos">4.26. Sinónimos y antónimos<sup class="footnote-ref"><a href="#fn85" id="fnref85">[85]</a></sup></h2>
+<p>Los sinónimos son palabras que tienen significado igual o semejante entre sí. Por ejemplo: lindo / bello. Los antónimos son palabras que tienen significado opuesto entre sí. Por ejemplo: lindo / feo.</p>
 <!-- Footnotes -->
 <!-- Matemáticas -->
 <!-- Ciencias -->
@@ -698,23 +1059,23 @@ arrancó casí tan lejos como la propia querra salvadoreña, si se considera com
 </li>
 <li id="fn67" class="footnote-item"><p>Pág. 108 - 109 <a href="#fnref67" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn68" class="footnote-item"><p>Pág. <a href="#fnref68" class="footnote-backref">↩︎</a></p>
+<li id="fn68" class="footnote-item"><p>Pág. ni idea <a href="#fnref68" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn69" class="footnote-item"><p>Pág. 23, 50, 83, 115, 146, 177, 207, 240 <a href="#fnref69" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn70" class="footnote-item"><p>Pág. <a href="#fnref70" class="footnote-backref">↩︎</a></p>
+<li id="fn70" class="footnote-item"><p>Pág. <a href="http://files.altus-humanitas.webnode.es/200000007-bac9cbbc82/LA%20POESIA%20Y%20SU%20ESTRUCTURA.pdf">http://files.altus-humanitas.webnode.es/200000007-bac9cbbc82/LA POESIA Y SU ESTRUCTURA.pdf</a> <a href="#fnref70" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn71" class="footnote-item"><p>Pág. <a href="#fnref71" class="footnote-backref">↩︎</a></p>
+<li id="fn71" class="footnote-item"><p>Pág. 32 - 33 <a href="#fnref71" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn72" class="footnote-item"><p>Pág. <a href="#fnref72" class="footnote-backref">↩︎</a></p>
+<li id="fn72" class="footnote-item"><p>Pág. 54 - 55 - 56 <a href="#fnref72" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn73" class="footnote-item"><p>Pág. <a href="#fnref73" class="footnote-backref">↩︎</a></p>
+<li id="fn73" class="footnote-item"><p>Pág. 156 <a href="#fnref73" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn74" class="footnote-item"><p>Pág. <a href="#fnref74" class="footnote-backref">↩︎</a></p>
+<li id="fn74" class="footnote-item"><p>Pág.imagenes <a href="#fnref74" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn75" class="footnote-item"><p>Pág. <a href="#fnref75" class="footnote-backref">↩︎</a></p>
+<li id="fn75" class="footnote-item"><p>Pág.218 <a href="#fnref75" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn76" class="footnote-item"><p>Pág. <a href="#fnref76" class="footnote-backref">↩︎</a></p>
+<li id="fn76" class="footnote-item"><p>Pág.247 <a href="#fnref76" class="footnote-backref">↩︎</a></p>
 </li>
 <li id="fn77" class="footnote-item"><p>Pág. <a href="#fnref77" class="footnote-backref">↩︎</a></p>
 </li>
@@ -724,15 +1085,15 @@ arrancó casí tan lejos como la propia querra salvadoreña, si se considera com
 </li>
 <li id="fn80" class="footnote-item"><p>Pág. <a href="#fnref80" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn81" class="footnote-item"><p>Pág. <a href="#fnref81" class="footnote-backref">↩︎</a></p>
+<li id="fn81" class="footnote-item"><p>Pág.<a href="https://2c-cumbres.webnode.mx/products/estructura-de-la-noticia/">https://2c-cumbres.webnode.mx/products/estructura-de-la-noticia/</a> <a href="#fnref81" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn82" class="footnote-item"><p>Pág. <a href="#fnref82" class="footnote-backref">↩︎</a></p>
+<li id="fn82" class="footnote-item"><p>Pág. 125 - 126 <a href="#fnref82" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn83" class="footnote-item"><p>Pág. <a href="#fnref83" class="footnote-backref">↩︎</a></p>
+<li id="fn83" class="footnote-item"><p>Pág.59 <a href="#fnref83" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn84" class="footnote-item"><p>Pág. <a href="#fnref84" class="footnote-backref">↩︎</a></p>
+<li id="fn84" class="footnote-item"><p>Pág.29 <a href="#fnref84" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn85" class="footnote-item"><p>Pág. <a href="#fnref85" class="footnote-backref">↩︎</a></p>
+<li id="fn85" class="footnote-item"><p>(<a href="https://www.ejemplos.co/ejemplos-de-sinonimos-y-antonimos/#ixzz6d30Pr2rt">https://www.ejemplos.co/ejemplos-de-sinonimos-y-antonimos/#ixzz6d30Pr2rt</a>) <a href="#fnref85" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
